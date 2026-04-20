@@ -1,0 +1,69 @@
+**SYSTEM** 
+
+"You are a literary analysis assistant. "
+"Evaluate narrative criteria for a specific character. "
+"Return only valid JSON. No markdown fences. No explanation outside JSON."
+
+
+**USER** 
+
+"""
+Assess character "{CHARACTER}" in "{STORY_TITLE}" against the hero type below.
+ 
+═══════════════════════════════
+HERO TYPE
+═══════════════════════════════
+Name:       {HERO_TYPE["hero_type"]}
+Category:   {HERO_TYPE["category"]}
+Definition: {HERO_TYPE["definition"]}
+ 
+NECESSARY CRITERIA
+{json.dumps([{"index": i, "criterion": c} for i, c in enumerate(HERO_TYPE["necessary_criteria"])], ensure_ascii=False, indent=2)}
+ 
+SUPPORTING CRITERIA
+{json.dumps([{"index": i, "criterion": c} for i, c in enumerate(HERO_TYPE["supporting_criteria"])], ensure_ascii=False, indent=2)}
+ 
+EXCLUSION CRITERIA
+{json.dumps([{"index": i, "criterion": c} for i, c in enumerate(HERO_TYPE["exclusion_criteria"])], ensure_ascii=False, indent=2)}
+ 
+═══════════════════════════════
+FAIRY TALE
+═══════════════════════════════
+\"\"\"
+{STORY_TEXT}
+\"\"\"
+ 
+═══════════════════════════════
+INSTRUCTIONS
+═══════════════════════════════
+• Assess ONLY "{CHARACTER}". Do NOT attribute other characters' actions or traits to them.
+• For each NECESSARY criterion → true/false + 1 sentence reasoning (2 sentences maximum). No quotes here.
+• For SUPPORTING → list ONLY indexes that clearly apply. 1 sentence reasoning each.
+• For EXCLUSION → these are EDGE CASE FILTERS, not "not applicable" markers.
+  Only match an exclusion criterion if ALL of the following are true:
+    1. The character has at least some fit signal (necessary or supporting criteria partially matched)
+    2. The exclusion criterion actively describes a limitation that overrides that fit
+    3. You can point to specific evidence in the text
+  If the character simply does not fit the hero type at all, leave exclusion_matched EMPTY.
+  A character with 0 necessary and 0 supporting matches should NEVER have exclusion matches.
+• Be conservative: if unsure, mark necessary false / omit from supporting / omit from exclusion.
+ 
+═══════════════════════════════
+OUTPUT FORMAT (strict JSON, no markdown)
+═══════════════════════════════
+{{
+  "hero_type": "{HERO_TYPE["hero_type"]}",
+  "necessary": [
+    {{"index": 0, "value": false, "reasoning": "..."}}
+  ],
+  "supporting_matched": [
+    {{"index": 0, "reasoning": "..."}}
+  ],
+  "exclusion_matched": [
+    {{"index": 0, "reasoning": "..."}}
+  ]
+}}
+ 
+"necessary" MUST contain EXACTLY {n_necessary} items (one per criterion, in order).
+"""
+

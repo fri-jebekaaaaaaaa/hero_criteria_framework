@@ -1,0 +1,54 @@
+**SYSTEM**
+
+"You are a precise quote extraction assistant. "
+"Copy verbatim phrases from a fairy tale that directly support given criteria. "
+"Return only valid JSON. No markdown fences. No explanation outside JSON."
+ 
+
+**USER**
+ 
+"""
+Extract verbatim quotes from the fairy tale that support each criterion below.
+ 
+Character: "{CHARACTER}"
+Story:     "{STORY_TITLE}"
+ 
+═══════════════════════════════
+CRITERIA TO SUPPORT
+═══════════════════════════════
+{POSITIVE_CRITERIA_FROM_STEP1}
+ 
+═══════════════════════════════
+FAIRY TALE
+═══════════════════════════════
+\"\"\"
+{STORY_TEXT}
+\"\"\"
+ 
+═══════════════════════════════
+EVIDENCE RULES (CRITICAL)
+═══════════════════════════════
+• Every quote MUST be a VERBATIM copy — exact wording, no changes.
+• The quote must directly refer to "{CHARACTER}" (their actions, state, or what is said about them).
+• Do NOT paraphrase. Do NOT summarize. Do NOT invent.
+• Keep quotes short (one sentence or clause).
+• MAX 3 quotes per criterion. Pick the most direct ones.
+• If no direct quote exists → use [].
+ 
+═══════════════════════════════
+OUTPUT FORMAT (strict JSON)
+═══════════════════════════════
+{{
+  "necessary": [
+    {{"index": 0, "quotes": ["exact quote..."]}}
+  ],
+  "supporting_matched": [
+    {{"index": 0, "quotes": ["exact quote..."]}}
+  ],
+  "exclusion_matched": [
+    {{"index": 0, "quotes": ["exact quote..."]}}
+  ]
+}}
+ 
+Include ONLY the indexes given to you above. Omit any section that has no entries.
+"""

@@ -1,0 +1,244 @@
+{
+  "Animal and Animal-Related": [
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"},
+    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS"},
+    {"character": "The Goose-Girl", "book": "the_blue_fairy_book", "tale": "26_THE_GOOSE_GIRL"},
+    {"character": "The Cunning Hare", "book": "the_brown_fairy_book", "tale": "07_THE_CUNNING_HARE"},
+    {"character": "Half-Chick", "book": "the_green_fairy_book", "tale": "02_THE_HALF_CHICK"},
+    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS"},
+    {"character": "The Father Bear", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS"},
+    {"character": "The Little Hare", "book": "the_pink_fairy_book", "tale": "38_THE_LITTLE_HARE"},
+    {"character": "The Hare", "book": "the_violet_fairy_book", "tale": "14_HOW_A_FISH_SWAM_IN_THE_AIR_AND_A_HARE_IN_THE_WATER"},
+    {"character": "Anansi", "book": "jamaica-anansi_stories", "tale": "133_ANANSI_SEEKS_HIS_FORTUNE"},
+    {"character": "Tamamo", "book": "japanese_fairy_tales", "tale": "XXVIII_TAMAMO_THE_FOX_MAIDEN"}
+  ],
+  "Arabian Nights Character": [
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU"},
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP"},
+    {"character": "Ali Baba", "book": "the_blue_fairy_book", "tale": "23_THE_FORTY_THIEVES"}
+   ],
+  "Archer": [
+    {"character": "Dunai", "book": "the_russian_story_book", "tale": "HOW_QUIET_DUNAI_HAD_BROUGHT_THE_PRINCESS_APRAXIA_TO_KIEV"},
+    {"character": "Robin Hood", "book": "stories_of_robin_hood", "tale": "WINNING_THE_SHERIFFS_GOLDEN_ARROW"}
+  ],
+  "Beauty": [
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"},
+    {"character": "Fatima", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"},
+    {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED"},
+    {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED"},
+    {"character": "Rapunzel", "book": "the_red_fairy_book", "tale":"27_RAPUNZEL"},          
+    {"character": "the Princess", "book": "the_blue_fairy_book", "tale": "06_THE_SLEEPING_BEAUTY_IN_the_WOOD"}
+  ],
+  "Beauty and the Beast": [
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"},
+    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"}
+  ],
+  "Celebrity Hero": [
+    {"character": "Crockett", "book": "the_way_of_the_west", "tale":"DAVY_CROCKETT"},
+    {"character": "Robin Hood", "book": "stories_of_robin_hood", "tale": "WINNING_THE_SHERIFFS_GOLDEN_ARROW"}   
+  ],
+  "Childrens Hero": [
+    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS"},
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"},
+    {"character": "Crockett", "book": "the_way_of_the_west", "tale":"DAVY_CROCKETT"},
+    {"character": "Tom Thumb", "book": "grimm_fairy_tales", "tale":"TOM_THUMB"},
+    {"character": "Perez the Mouse", "book": "various", "tale": "perez_the_mouse"},
+    {"character": "Saint Nicholas", "book": "canadian_fairy_tales", "tale": "SAINT_NICHOLAS_AND_THE_CHILDREN"}
+  ],
+  "Cinderella": [
+    {"character": "Cinderella", "book": "blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"},
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"}
+  ],
+  "Culture Hero": [
+    {"character": "Anansi", "book": "jamaica-anansi_stories", "tale": "133_ANANSI_SEEKS_HIS_FORTUNE"},
+    {"character": "Arthur", "book": "king_arthur", "tale": "THE_CROWNING_OF_ARTHUR"}
+  ],
+  "Devil, The": [
+    {"character": "The Devil", "book": "the_pink_fairy_book", "tale": "41_DON_GIOVANNI_DE_LA_FORTUNA"}
+  ],
+  "Diminutive Being": [
+    {"character": "Tom Thumb", "book": "grimm_fairy_tales", "tale":"TOM_THUMB"}
+  ],
+  "Dragon-Slayer":[
+    {"character": "Ivan Tsarevich", "book": "the_red_fairy_book", "tale": "04_THE_DEATH_OF_KOSHCHEI_THE_DEATHLESS"},
+    {"character": "George", "book": "various", "tale": "st_george_and_the_dragon"}
+  ],
+  "Fairy": [
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"}
+  ],
+  "Fairy Godmother": [
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"}
+  ],
+  "Fairy Tale Hero": [
+    {"character": "Little Red Riding-Hood", "book": "the_blue_fairy_book", "tale": "05_LITTLE_RED_RIDING_HOOD"},
+    {"character": "Cinderella", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"},
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"},
+    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS"},
+    {"character": "Gretel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL"},
+    {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL"},
+    {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED"},
+    {"character": "The Goose-Girl", "book": "the_blue_fairy_book", "tale": "26_THE_GOOSE_GIRL"},
+    {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
+    {"character": "Half-Chick", "book": "the_green_fairy_book", "tale": "02_THE_HALF_CHICK"},
+    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS"},
+    {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"},
+    {"character": "Rapunzel", "book": "the_red_fairy_book", "tale":"27_RAPUNZEL"},
+    {"character": "Robin Hood", "book": "stories_of_robin_hood", "tale": "WINNING_THE_SHERIFFS_GOLDEN_ARROW"},   
+    {"character": "the Princess", "book": "the_blue_fairy_book", "tale": "06_THE_SLEEPING_BEAUTY_IN_the_WOOD"},
+    {"character": "Hans", "book": "grimm_fairy_tales", "tale": "HANS_IN_LUCK"}
+  ],
+  "Frontier Hero": [
+    {"character": "Crockett", "book": "the_way_of_the_west", "tale":"DAVY_CROCKETT"}
+  ],
+  "Giant-Killer": [
+    {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+  ],
+  "Hare": [
+    {"character": "The Cunning Hare", "book": "the_brown_fairy_book", "tale": "07_THE_CUNNING_HARE"},
+    {"character": "The Little Hare", "book": "the_pink_fairy_book", "tale": "38_THE_LITTLE_HARE"},
+    {"character": "The Hare", "book": "the_violet_fairy_book", "tale": "14_HOW_A_FISH_SWAM_IN_THE_AIR_AND_A_HARE_IN_THE_WATER"}
+  ],
+  "Healer": [
+    {"character": "Loqman", "book": "armenian_folk_tales_and_fables", "tale": "LOQMAN_THE_WISE"}
+  ],
+  "Helper": [
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS"},
+    {"character": "Loqman", "book": "armenian_fairy_tales_and_fables", "tale": "LOQMAN_THE_WISE"},
+    {"character": "Saint Nicholas", "book": "canadian_fairy_tales", "tale": "SAINT_NICHOLAS_AND_THE_CHILDREN"}
+  ],
+  "Hero of Struggle": [
+    {"character": "McCaffery", "book": "various", "tale": "the_ballad_of_private_mccaffery"},
+    {"character": "Robin Hood", "book": "stories_of_robin_hood", "tale": "WINNING_THE_SHERIFFS_GOLDEN_ARROW"}
+  ],
+  "Jack": [
+    {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
+    {"character": "Ivan", "book": "the_pink_fairy_book", "tale": "17_SNOWFLAKE"},
+    {"character": "Ivan", "book": "the_red_fairy_book", "tale": "10_THE_NORKA"},
+    {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"}
+  ],
+  "Jack and the Beanstalk": [
+    {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"},
+    {"character": "the Giant", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"}
+  ],
+  "Jack Tale": [
+    {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
+    {"character": "Ivan", "book": "the_pink_fairy_book", "tale": "17_SNOWFLAKE"},
+    {"character": "Ivan", "book": "the_red_fairy_book", "tale": "10_THE_NORKA"},
+    {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"}
+  ],
+  "Liar": [
+    {"character": "Crockett", "book": "the_way_of_the_west", "tale":"DAVY_CROCKETT"}  
+  ],
+  "Local Hero": [
+    {"character": "Dunai", "book": "the_russian_story_book", "tale": "HOW_QUIET_DUNAI_HAD_BROUGHT_THE_PRINCESS_APRAXIA_TO_KIEV"}
+  ],
+  "Lover": [
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"},
+    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"},
+    {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED"},
+    {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED"},
+    {"character": "Rapunzel", "book": "the_red_fairy_book", "tale":"27_RAPUNZEL"}
+  ],
+  "Magician": [
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU"}
+  ],
+  "Military Hero": [
+    {"character": "Mulan", "book": "li_napei-old_tales_of_china", "tale": "HUA_MULAN"},
+    {"character": "McCaffery", "book": "various", "tale": "the_ballad_of_private_mccaffery"}
+  ],
+  "National Hero": [
+    {"character": "Robin Hood", "book": "stories_of_robin_hood", "tale": "WINNING_THE_SHERIFFS_GOLDEN_ARROW"},
+    {"character": "Arthur", "book": "king_arthur", "tale": "THE_CROWNING_OF_ARTHUR"}
+  ],
+  "Nautical Hero": [
+    {"character": "Sadko", "book": "the_russian_story_book", "tale": "Merchant_Sadko"},
+    {"character": "Saint Nicholas", "book": "canadian_fairy_tales", "tale": "SAINT_NICHOLAS_AND_THE_CHILDREN"}
+  ],
+  "Non-human lover": [
+    {"character": "Tamamo", "book": "japanese_fairy_tales", "tale": "XXVIII_TAMAMO_THE_FOX_MAIDEN"}
+  ],
+  "Numskull or Noodle": [
+    {"character": "Hans", "book": "grimm_fairy_tales", "tale": "HANS_IN_LUCK"}
+  ],
+  "Occupational Hero": [
+    {"character": "McCaffery", "book": "various", "tale": "the_ballad_of_private_mccaffery"}
+  ],
+  "Ogre": [
+    {"character": "the Giant", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
+    {"character": "the Giant", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"}
+  ],
+  "Outlaw": [
+    {"character": "Robin Hood", "book": "stories_of_robin_hood", "tale": "WINNING_THE_SHERIFFS_GOLDEN_ARROW"}
+  ],
+  "Puss in Boots": [
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS"}
+  ],
+  "Religious Hero": [
+    {"character": "George", "book": "various", "tale": "st_george_and_the_dragon"},
+    {"character": "Saint Nicholas", "book": "canadian_fairy_tales", "tale": "SAINT_NICHOLAS_AND_THE_CHILDREN"}
+  ],
+  "Santa Claus": [
+    {"character": "Saint Nicholas", "book": "canadian_fairy_tales", "tale": "SAINT_NICHOLAS_AND_THE_CHILDREN"}
+  ],
+  "Shape-Shifter": [
+    {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
+    {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED"},
+    {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED"},
+    {"character": "Ivan", "book": "the_pink_fairy_book", "tale": "17_SNOWFLAKE"},
+    {"character": "Ivan", "book": "the_red_fairy_book", "tale": "10_THE_NORKA"},
+    {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"},
+    {"character": "Tamamo", "book": "japanese_fairy_tales", "tale": "XXVIII_TAMAMO_THE_FOX_MAIDEN"}
+  ],
+  "Sleeper": [  
+    {"character": "the Princess", "book": "the_blue_fairy_book", "tale": "06_THE_SLEEPING_BEAUTY_IN_the_WOOD"},
+    {"character": "Arthur", "book": "king_arthur", "tale": "THE_CROWNING_OF_ARTHUR"}
+  ],
+
+  "Thief": [
+        {"character": "Ali Baba", "book": "the_blue_fairy_book", "tale": "23_THE_FORTY_THIEVES"}
+    ],
+  "Tooth Fairy, The": [
+    {"character": "Perez the Mouse", "book": "various", "tale": "perez_the_mouse"}
+  ],
+  "Trickster": [
+    {"character": "The Cunning Hare", "book": "the_brown_fairy_book", "tale": "07_THE_CUNNING_HARE"},
+    {"character": "The Little Hare", "book": "the_pink_fairy_book", "tale": "38_THE_LITTLE_HARE"},
+    {"character": "The Hare", "book": "the_violet_fairy_book", "tale": "14_HOW_A_FISH_SWAM_IN_THE_AIR_AND_A_HARE_IN_THE_WATER"},
+    {"character": "Anansi", "book": "jamaica-anansi_stories", "tale": "133_ANANSI_SEEKS_HIS_FORTUNE"}
+  ],
+  "Under/Other world Visitor": [
+    {"character": "Sadko", "book": "the_russian_story_book", "tale": "Merchant_Sadko"}
+  ],
+  "Unpromising Hero": [
+    {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
+    {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"},
+    {"character": "Hans", "book": "grimm_fairy_tales", "tale": "HANS_IN_LUCK"}
+  ],
+  "Victim": [
+    {"character": "Cinderella", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"},
+    {"character": "Gretel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL"},
+    {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL"},
+    {"character": "Fatima", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"}
+  ],
+  "Villain": [
+    {"character": "Blue Beard", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"},
+    {"character": "The Devil", "book": "the_pink_fairy_book", "tale": "41_DON_GIOVANNI_DE_LA_FORTUNA"},
+    {"character": "Koshchei the Deathless", "book": "the_red_fairy_book", "tale": "04_THE_DEATH_OF_KOSHCHEI_THE_DEATHLESS"},
+    {"character": "the Giant", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
+    {"character": "the Giant", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"}
+  ],
+  "Warrior": [
+    {"character": "Ivan Tsarevich", "book": "the_red_fairy_book", "tale": "04_THE_DEATH_OF_KOSHCHEI_THE_DEATHLESS"},
+    {"character": "Arthur", "book": "king_arthur", "tale": "THE_CROWNING_OF_ARTHUR"},
+    {"character": "Dunai", "book": "the_russian_story_book", "tale": "HOW_QUIET_DUNAI_HAD_BROUGHT_THE_PRINCESS_APRAXIA_TO_KIEV"}
+  ],
+  "Wise Man/Woman": [
+    {"character": "Fatima", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"}
+  ],
+  "Woman Dressed as Man": [
+    {"character": "Mulan", "book": "li_napei-old_tales_of_china", "tale": "HUA_MULAN"}
+  ]
+}

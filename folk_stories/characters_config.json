@@ -1,0 +1,85 @@
+{
+  "the_blue_fairy_book": {
+    "06_THE_SLEEPING_BEAUTY_IN_THE_WOOD.txt": [
+      "the Princess"
+    ],
+    "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER.txt": [
+      "Jack",
+      "the Giant"
+    ]
+  },  
+  "the_red_fairy_book": {
+    "12_JACK_AND_THE_BEANSTALK.txt": [
+      "Jack",
+      "the Giant"
+    ]
+  },  
+  "armenian_folk_tales_and_fables": {
+    "LOQMAN_THE_WISE.txt": [
+      "Loqman"
+    ]
+  },
+  "canadian_fairy_tales": {
+    "SAINT_NICHOLAS_AND_THE_CHILDREN.txt": [
+      "Saint Nicholas"
+    ]
+  },
+  "grimm_fairy_tales": {
+    "HANS_IN_LUCK.txt": [
+      "Hans"
+    ],
+    "TOM_THUMB.txt": [
+      "Tom Thumb"
+    ]
+  },
+  "jamaica-anansi_stories": {
+    "133_ANANSI_SEEKS_HIS_FORTUNE.txt": [
+      "Anansi"
+    ]
+  },
+  "japanese_fairy_tales": {
+    "XXVIII_TAMAMO_THE_FOX_MAIDEN.txt": [
+      "Tamamo"
+    ]
+  },
+  "king_arthur": {
+    "THE_CROWNING_OF_ARTHUR.txt": [
+      "Arthur"
+    ]
+  },
+  "li_napei-old_tales_of_china": {
+    "HUA_MULAN.txt": [
+      "Mulan"
+    ]
+  },
+  "stories_of_robin_hood": {
+    "WINNING_THE_SHERIFFS_GOLDEN_ARROW.txt": [
+      "Robin Hood"
+    ]
+  },
+  "the_russian_story_book": {
+    "HOW_QUIET_DUNAI_HAD_BROUGHT_THE_PRINCESS_APRAXIA_TO_KIEV.txt": [
+      "Dunai"
+    ],
+    "Merchant_Sadko.txt": [
+      "Sadko"
+    ]
+  },
+  "the_way_of_the_west": {
+    "DAVY_CROCKETT.txt": [
+      "Crockett"
+    ]
+  },
+  "various": {
+    "perez_the_mouse.txt": [
+      "Perez the Mouse"
+    ],
+    "st_george_and_the_dragon.txt": [
+      "George"
+    ],
+    "the_ballad_of_private_mccaffery.txt": [
+      "McCaffery"
+    ]
+  }
+
+}

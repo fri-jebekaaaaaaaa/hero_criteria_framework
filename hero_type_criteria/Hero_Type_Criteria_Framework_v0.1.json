@@ -1,0 +1,1290 @@
+{
+  "source_file": "Hero_Type_Criteria_Framework_v0.1.docx",
+  "hero_type_count": 51,
+  "hero_types": [
+    {
+      "hero_type": "Animal and Animal-Related",
+      "category": "Entity / Identity",
+      "definition": "A hero whose identity is an animal, is transformed into or from an animal, or fundamentally defined through a constitutive animal relationship.",
+      "necessary_logic": "OR",
+      "necessary_criteria": [
+        "The hero’s primary ontological identity is non-human animal, and the animal acts as a narrative agent.",
+        "The hero’s ontological identity centrally includes transformation into or from animal form. The transformation must: be identity-defining, affect how the character is recognized or treated, not be incidental or momentary.",
+        "The hero’s defining narrative identity depends on a specific animal entity. Removing the animal from the story collapses the heroic configuration."
+      ],
+      "supporting_criteria": [
+        "Animal abilities are central to plot progression.",
+        "The hero’s name or identity explicitly references animality.",
+        "The narrative world treats the animal as socially equivalent to humans.",
+        "The animal/human boundary is narratively emphasized.",
+        "The animal relationship recurs across multiple episodes."
+      ],
+      "exclusion_criteria": [
+        "Animals appear only as background or incidental elements.",
+        "Animal symbolism is metaphorical only (e.g., “lion-hearted”).",
+        "The hero merely owns or briefly interacts with an animal.",
+        "The animal element is narratively removable without altering the hero’s identity."
+      ]
+    },
+    {
+      "hero_type": "Arabian Nights Character",
+      "category": "Narrative Form",
+      "definition": "A hero or heroine whose defining narrative role occurs within the storytelling tradition of the Arabian Nights.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The character originates in the Arabian Nights narrative tradition.",
+        "The character is a central protagonist within one of the stories of that tradition.",
+        "The character’s story is part of the broader frame narrative cycle associated with The Arabian Nights."
+      ],
+      "supporting_criteria": [
+        "The narrative includes magical or supernatural elements.",
+        "The character interacts with rulers, merchants, or other figures typical of the urban / court settings of the stories.",
+        "The narrative involves cleverness, storytelling, or strategic deception.",
+        "The story features sudden reversals of fortune or unexpected outcomes."
+      ],
+      "exclusion_criteria": [
+        "The character does not originate from or participate in the Arabian Nights narrative cycle."
+      ]
+    },
+    {
+      "hero_type": "Archer",
+      "category": "Social role",
+      "definition": "Hero whose defining heroic identity and narrative agency are centered on archery.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero is explicitly identified as an archer, and archery is central to their reputation or narrative identity.",
+        "The hero’s decisive or defining heroic acts are primarily accomplished through the use of a bow."
+      ],
+      "supporting_criteria": [
+        "Exceptional or supernatural skills in archery.",
+        "Archery is repeatedly emphasized across episodes.",
+        "The hero is culturally remembered or labeled specifically as an archer.",
+        "Archery functions as symbolic marker of identity (e.g., precision, distance, elite skill).",
+        "Other combat methods are secondary to archery."
+      ],
+      "exclusion_criteria": [
+        "The hero merely uses a bow once without identity relevance.",
+        "Archery is one of many interchangeable combat skills.",
+        "The bow is symbolic or decorative but not action-defining.",
+        "Another weapon or skill defines the hero more strongly than archery."
+      ]
+    },
+    {
+      "hero_type": "Beauty",
+      "category": "Entity / Identity",
+      "definition": "A hero whose identity and narrative role are primarily defined by extraordinary physical beauty.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero is explicitly identified within the narrative as exceptionally beautiful, and this beauty is central to their characterization.",
+        "The hero’s physical beauty directly motivates or structures major narrative developments (e.g., pursuit, jealousy, abduction, rivalry, testing)."
+      ],
+      "supporting_criteria": [
+        "Multiple characters react to the hero primarily because of their beauty.",
+        "Beauty is repeatedly emphasized across the narrative.",
+        "The hero’s beauty causes conflict (envy, desire, competition).",
+        "Beauty is culturally framed as extraordinary or supernatural.",
+        "The hero’s value or status is explicitly linked to attractiveness."
+      ],
+      "exclusion_criteria": [
+        "The hero is described as attractive once, but their attractiveness has no structural relevance.",
+        "Physical appearance is not narratively emphasized.",
+        "Beauty is metaphorical (e.g., “beautiful soul”) rather than physical and plot relevant."
+      ]
+    },
+    {
+      "hero_type": "Beauty and the Beast",
+      "category": "Narrative Pattern / Motif",
+      "definition": "A tale in which a woman’s voluntary acceptance of a beastly spouse breaks an enchantment and restores the beast to human form.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "A central male figure appears in animal or monstrous form.",
+        "The beast is later revealed to be an enchanted human (typically a prince).",
+        "The heroine voluntarily agrees to live with and ultimately marry the beast.",
+        "The heroine’s acceptance breaks the enchantment, restoring the beast to human form."
+      ],
+      "supporting_criteria": [
+        "Father’s theft leads to beast encounter.",
+        "Three daughters, youngest virtuous.",
+        "Selfish sisters punished.",
+        "Temporary return home allowed.",
+        "Magical object (ring, mirror).",
+        "Beast near death due to delay.",
+        "Marriage leads to kingdom reward."
+      ],
+      "exclusion_criteria": [
+        "The beast is not an enchanted human.",
+        "The heroine does not voluntarily consent to union.",
+        "No transformation occurs.",
+        "The beast remains a beast permanently.",
+        "The relationship is coercive without later voluntary acceptance."
+      ]
+    },
+    {
+      "hero_type": "Celebrity Hero",
+      "category": "Social role",
+      "definition": "A hero whose defining identity is based on public fame and mass-cultural recognition.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero’s defining status depends on widespread public recognition beyond a local or immediate community.",
+        "The hero’s reputation is constructed, sustained, or amplified through media or mass-cultural circulation."
+      ],
+      "supporting_criteria": [
+        "The hero is widely known outside their immediate social context.",
+        "The hero’s reputation depends on storytelling, print, broadcast, or modern media.",
+        "Public image contributes significantly to heroic identity.",
+        "The hero’s deeds are commemorated through publicity rather than solely oral tradition.",
+        "The hero’s identity persists through popular culture circulation."
+      ],
+      "exclusion_criteria": [
+        "The hero is respected locally but not widely recognized.",
+        "The hero is mythic but not a celebrity.",
+        "The hero is historically important but not publicly mythologized.",
+        "Hero’s fame is secondary to cultural formation (→ Culture Hero instead)."
+      ]
+    },
+    {
+      "hero_type": "Children’s Heroes",
+      "category": "Narrative Form",
+      "definition": "A hero whose principal cultural identity is formed through children’s folklore, nursery tradition, or child-centered storytelling.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero’s primary or dominant circulation occurs within children’s folklore, nursery rhymes, children’s tales, or child-directed storytelling.",
+        "The hero is structurally associated with childhood belief practices or rituals (e.g., gift-giving, tooth-taking, bedtime lore)."
+      ],
+      "supporting_criteria": [
+        "The hero appears frequently in nursery rhymes or children’s verse.",
+        "The hero functions in moral instruction directed at children.",
+        "The hero is widely recognized primarily through childhood exposure.",
+        "The narrative tone is simplified, rhythmic, or formulaic.",
+        "The figure operates within child belief systems (e.g., magical gift bringer)."
+      ],
+      "exclusion_criteria": [
+        "The hero appears in a story involving children but is not culturally associated with children’s tradition.",
+        "The hero originates in adult legend and only secondarily enters children’s retellings.",
+        "The hero is merely appropriate for children but not structurally tied to children’s folklore.",
+        "The narrative includes child characters but is not culturally classified as children’s folklore."
+      ]
+    },
+    {
+      "hero_type": "Cinderella",
+      "category": "Narrative Pattern / Motif",
+      "definition": "A tale in which an oppressed heroine rises from low status to high status through recognition and marriage.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The heroine begins at the bottom of the social or economic order.",
+        "The heroine experiences sustained hardship, injustice, or testing.",
+        "A mechanism of recognition (often symbolic, e.g., shoe) establishes her true identity.",
+        "The heroine wins the love of and marries a socially superior hero, resulting in upward status transformation."
+      ],
+      "supporting_criteria": [
+        "Evil stepmother or rival siblings.",
+        "Magical assistance (fairy godmother, animal helpers).",
+        "Ball or courtship event.",
+        "Physical token (shoe).",
+        "Sisters punished.",
+        "Heroine portrayed as innocent victim."
+      ],
+      "exclusion_criteria": [
+        "The heroine does not begin from marginalized status.",
+        "There is no recognition mechanism.",
+        "No upward social transformation occurs.",
+        "Marriage is not central to elevation."
+      ]
+    },
+    {
+      "hero_type": "Culture Hero",
+      "category": "Social role",
+      "definition": "A hero whose defining role is the founding or transformation of core cultural elements for a people or society.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero’s actions are presented as significantly shaping the collective life, practices, or self-understanding of a community.",
+        "The hero introduces, creates, or secures a fundamental element of cultural life (e.g., fire, law, agriculture, crafts, social order).",
+        "The hero’s actions permanently alter the structure or identity of a community’s way of life."
+      ],
+      "supporting_criteria": [
+        "The hero’s legacy explains aspects of cultural practice or worldview.",
+        "The hero is invoked as representative of a culture.",
+        "The hero’s narrative is tied to long-term cultural memory.",
+        "The hero influences language, folklore, ritual, or identity narratives.",
+        "The hero’s actions have consequences beyond their lifetime."
+      ],
+      "exclusion_criteria": [
+        "The hero achieves greatness without broader cultural shaping.",
+        "The hero’s fame is individual rather than culturally formative.",
+        "The hero is primarily known for a single exploit without identity-shaping impact.",
+        "The hero is regionally famous but not culturally formative."
+      ]
+    },
+    {
+      "hero_type": "Devil, The",
+      "category": "Entity / Identity",
+      "definition": "The singular Christian Devil appearing in narrative episodes involving temptation, bargaining, or moral testing.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The character is explicitly identified as the Devil, Satan, or a recognized Christian analogue (e.g., “Old Nick,” “Clootie”).",
+        "The narrative operates within Christian belief structures (souls, damnation, animals lacking souls, etc.).",
+        "The Devil attempts to: secure a soul, enter a pact, offer supernatural aid in exchange for spiritual cost, or trick a human into damnation."
+      ],
+      "supporting_criteria": [
+        "The Devil appears in disguise.",
+        "The Devil engages in a contract scenario.",
+        "The Devil constructs something supernaturally (e.g., bridge).",
+        "The Devil is outwitted by a clever human.",
+        "The narrative emphasizes saving one’s soul.",
+        "The Devil displays musical virtuosity (fiddle, bagpipes, banjo, guitar)."
+      ],
+      "exclusion_criteria": [
+        "The figure is one among multiple devils or demons.",
+        "The being belongs to non-Christian cosmology.",
+        "The being is evil but not involved in soul temptation or pact structure.",
+        "The being functions as a monster or ogre rather than a soul-bargaining adversary.",
+        "The adversary lacks supernatural identity."
+      ]
+    },
+    {
+      "hero_type": "Diminutive Being",
+      "category": "Entity / Identity",
+      "definition": "A hero whose defining characteristic is extreme physical smallness relative to ordinary humans.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero is explicitly described as significantly smaller than ordinary humans, and this size is central to their identity.",
+        "The hero’s diminutive stature is narratively emphasized and shapes their interactions with the world."
+      ],
+      "supporting_criteria": [
+        "The hero’s size is referenced in their name (e.g., “No Bigger Than a Finger”, “Tom Thumb”).",
+        "Narrative tension arises from physical smallness.",
+        "The hero interacts with objects, animals, or humans at exaggerated scale differences.",
+        "The hero compensates for size through cleverness or resilience.",
+        "The story repeatedly foregrounds scale contrast."
+      ],
+      "exclusion_criteria": [
+        "The hero is merely a child (youth ≠ diminutive being).",
+        "The hero is described as short but within human variation.",
+        "Smallness is metaphorical rather than literal.",
+        "Physical size is not central to narrative structure."
+      ]
+    },
+    {
+      "hero_type": "Dragon-Slayer",
+      "category": "Narrative Pattern / Motif",
+      "definition": "A hero who defeats a dragon-like embodiment of destructive evil, representing the victory of good over evil.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero confronts a creature categorized as a dragon or belonging to the same class (serpent, giant worm, sea monster, giant man-eating beast).",
+        "The hero engages in direct confrontation and defeats the creature.",
+        "The adversary creature is framed as destructive, loathsome, or evil, and the hero’s victory represents the triumph of good over that force."
+      ],
+      "supporting_criteria": [
+        "The hero rescues a princess or other victim.",
+        "The creature (dragon) demands sacrifice or threatens community.",
+        "The hero begins as underestimated (youngest son, layabout).",
+        "The victory reveals hero’s unexpected bravery or strength.",
+        "The hero gains gold, marriage, or kingdom.",
+        "The hero is later interpreted as culture hero or warrior hero."
+      ],
+      "exclusion_criteria": [
+        "The hero encounters a dragon-like being but there is no conflict.",
+        "The creature is not framed as destructive or evil.",
+        "No defeat occurs.",
+        "Conflict is morally neutral."
+      ]
+    },
+    {
+      "hero_type": "Fairy",
+      "category": "Entity / Identity",
+      "definition": "A supernatural fairy being whose actions toward humans may be beneficial, harmful, or unpredictable.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure is identified as a fairy or fairy-equivalent within folkloric tradition.",
+        "The figure acts independently within the narrative, not merely as symbolic decoration.",
+        "The figure is not consistently benevolent; it is capable of both helping and harming."
+      ],
+      "supporting_criteria": [
+        "Associated with enchantment or transformation.",
+        "Connected to nature, liminal spaces, or otherworld.",
+        "Interacts unpredictably with humans.",
+        "Functions outside human moral structure.",
+        "Appears in both helpful and dangerous capacities across traditions."
+      ],
+      "exclusion_criteria": [
+        "Supernatural being is consistently benevolent and protective (→ Fairy Godmother).",
+        "Character is human.",
+        "Character exists solely as helper without independent agency.",
+        "Character exists only as literary fairy tale invention without folkloric basis.",
+        "Being is strictly demonic or monstrous (→ other entity types)."
+      ]
+    },
+    {
+      "hero_type": "Fairy Godmother",
+      "category": "Entity / Identity",
+      "definition": "A benevolent supernatural helper who safeguards and rescues a designated hero or heroine.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure is presented as a fairy or fairy-like supernatural being.",
+        "The figure has a specific character (a hero/heroine) under their care.",
+        "The figure rescues or protects the hero/heroine from danger or hardship.",
+        "The figure is unfailingly good, unlike ambivalent or harmful fairies."
+      ],
+      "supporting_criteria": [
+        "Provides magical aid or transformation.",
+        "Appears at critical turning point.",
+        "Acts as guardian-like presence.",
+        "Functions as narrative catalyst.",
+        "Associated with literary fairy tale tradition."
+      ],
+      "exclusion_criteria": [
+        "Fairy figure is morally ambivalent or harmful.",
+        "Supernatural being does not have a hero/heroine under their care.",
+        "Assistance is accidental or incidental.",
+        "Figure functions primarily as trickster or antagonist.",
+        "Character is human (no supernatural element)."
+      ]
+    },
+    {
+      "hero_type": "Fairy Tale Hero",
+      "category": "Narrative Form",
+      "definition": "A genre-conditioned hero marked by humility, limited agency, and narrative inevitability within the fairy tale form.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The character appears within the literary fairy tale tradition shaped by its conventions (as described by Perrault, the Grimms, etc.).",
+        "The hero is characterized by humility, naivety, or even stupidity.",
+        "The hero does not primarily drive the action; events often happen to them.",
+        "The narrative structure leads toward a secure, happy ending (marriage, kingdom, reward)."
+      ],
+      "supporting_criteria": [
+        "Hero unnamed or generically named.",
+        "Heavy reliance on helpers (fairy godmother, dwarves, etc.).",
+        "Victimization at beginning.",
+        "Evil stepmother or similar simplified villain.",
+        "Moral clarity (good rewarded, evil punished).",
+        "Emotional or psychological depth limited."
+      ],
+      "exclusion_criteria": [
+        "Hero is highly self-directed and volitional.",
+        "Narrative lacks fairy tale conventions.",
+        "Resolution is tragic or morally ambiguous.",
+        "Hero’s actions demonstrate strong autonomous agency.",
+        "Narrative retains raw folkloric violence without literary reshaping."
+      ]
+    },
+    {
+      "hero_type": "Frontier Hero",
+      "category": "Social Role",
+      "definition": "A heroic type associated with the pioneering, exploratory, or conflict-driven conditions of frontier societies, whose larger-than-life deeds become central to the folklore and national identity of New World cultures.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero is associated with frontier conditions such as exploration, settlement, rural labor, or border conflict.",
+        "The hero becomes the subject of folklore, tall tales, songs, or ballads tied to frontier life.",
+        "The hero is portrayed as possessing exaggerated “larger than life” qualities (strength, bravery, cunning, scorn of danger, braggadocio)."
+      ],
+      "supporting_criteria": [
+        "Historical figure, transformed into legend.",
+        "Associated with national myth-building.",
+        "Embellished through media (books, shows, films).",
+        "Braggart or tall-tale exaggeration.",
+        "Associated with masculine frontier labor roles (cowboy, bushman, backwoodsman).",
+        "Has gender counterpart (cowgirl figure).",
+        "Indigenous resistance hero within frontier conflict."
+      ],
+      "exclusion_criteria": [
+        "Hero not tied to frontier environment.",
+        "No mythologization or folkloric amplification.",
+        "Purely military hero without frontier association.",
+        "Hero not embedded in national or regional frontier identity."
+      ]
+    },
+    {
+      "hero_type": "Giant-Killer",
+      "category": "Narrative Pattern / Motif",
+      "definition": "A heroic type in which a hero defeats one or more giants who intimidate or oppress a community, thereby restoring normality and security.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The adversary is identified as a giant or giant-ogre (humanoid oversized being).",
+        "The giant is portrayed as fearsome and as intimidating, threatening, or harming a poor or disadvantaged community.",
+        "The hero defeats or kills the giant(s).",
+        "The defeat restores normality and security to the community."
+      ],
+      "supporting_criteria": [
+        "Serial slaying of multiple giants.",
+        "Giant portrayed as stupid or brutish.",
+        "Underdog dynamic (size or power imbalance).",
+        "Hero wins love, kingdom, or rule.",
+        "Community gratitude emphasized."
+      ],
+      "exclusion_criteria": [
+        "Adversary is not a giant or humanoid giant-figure.",
+        "Giant does not threaten or oppress a community.",
+        "No defeat occurs.",
+        "Victory does not restore communal security."
+      ]
+    },
+    {
+      "hero_type": "Hare",
+      "category": "Entity / Identity",
+      "definition": "A hare acting as a central folkloric character, often associated with trickster or culture-hero roles.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The character is explicitly a hare (animal), not merely metaphorically described as one.",
+        "The hare functions as a primary or significant agent within the story.",
+        "The hare participates in culturally meaningful narrative roles (e.g., creator, culture hero, trickster, moral figure)."
+      ],
+      "supporting_criteria": [
+        "Identified as Great Hare or White Hare.",
+        "Identified with trickster figure (e.g., Nanabozho).",
+        "Associated with African trickster traditions.",
+        "Displays cunning or overconfidence.",
+        "Appears in moral fable structure.",
+        "Linked to diaspora traditions."
+      ],
+      "exclusion_criteria": [
+        "Character is rabbit metaphor only.",
+        "Hare appears incidentally, not as active agent.",
+        "Animal figure is a different species (fox, coyote, etc.).",
+        "Hare lacks cultural or narrative significance."
+      ]
+    },
+    {
+      "hero_type": "Healer",
+      "category": "Narrative Function",
+      "definition": "A heroic figure whose defining characteristic is the ability and willingness to heal physical or supernatural wounds and ailments.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure possesses the ability to heal wounds or ailments (physical or supernatural).",
+        "The healing ability is central to the figure’s heroic identity.",
+        "The figure performs acts of healing within the narrative tradition."
+      ],
+      "supporting_criteria": [
+        "Uses supernatural powers.",
+        "Functions as wise man/woman.",
+        "Acts as advisor.",
+        "Healing extends to spiritual or magical harm.",
+        "Healing role is repeated across narratives."
+      ],
+      "exclusion_criteria": [
+        "Character provides general assistance but does not heal.",
+        "Character heals incidentally but is not known for healing.",
+        "Character causes harm rather than cures.",
+        "Healing is metaphorical only."
+      ]
+    },
+    {
+      "hero_type": "Helper",
+      "category": "Narrative Function",
+      "definition": "A narrative figure or object whose function is to aid the hero in overcoming narrative obstacles.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure or object is not the primary hero of the narrative.",
+        "The figure provides assistance that enables the hero to overcome an obstacle or advance in the narrative.",
+        "The assistance materially contributes to the hero’s success (even if temporary or conditional)."
+      ],
+      "supporting_criteria": [
+        "Assistance occurs at a critical narrative moment.",
+        "Assistance involves provision of knowledge, protection, tools, or intervention.",
+        "Helper appears in response to need or crisis.",
+        "Helper may require repayment, loyalty, or condition.",
+        "Helper may later withdraw or disappear.",
+        "Helper’s role is limited to enabling the hero rather than pursuing independent goals."
+      ],
+      "exclusion_criteria": [
+        "The figure is the main protagonist.",
+        "The figure’s actions do not significantly affect the hero’s success.",
+        "The figure functions primarily as antagonist.",
+        "The figure’s presence is symbolic rather than instrumental.",
+        "The figure acts independently without assisting the hero’s quest."
+      ]
+    },
+    {
+      "hero_type": "Hero of Struggle",
+      "category": "Social Role",
+      "definition": "A hero defined by circumstances of social conflict who represents resistance to oppressive power.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero emerges from identifiable social, political, economic, or colonial conflict.",
+        "The hero resists, defies, or symbolically opposes ruling, occupying, or oppressive authority.",
+        "The hero functions as a representative or symbolic champion of an oppressed or dissatisfied group"
+      ],
+      "supporting_criteria": [
+        "Outsmarts representatives of ruling class.",
+        "Provides vicarious revenge.",
+        "Channels dissatisfaction or dissent.",
+        "Embedded in national resistance tradition.",
+        "Linked to labor or agrarian struggle.",
+        "May overlap with outlaw hero.",
+        "May be a historical figure or fictional.",
+        "May paradoxically originate from elite figure reinterpreted as liberator, only when they liberate an oppressed people."
+      ],
+      "exclusion_criteria": [
+        "No identifiable social or political conflict context.",
+        "Hero acts independently without representing collective struggle.",
+        "Conflict is purely personal rather than structural.",
+        "Hero reinforces authority rather than resisting it."
+      ]
+    },
+    {
+      "hero_type": "Jack",
+      "category": "Entity / Identity",
+      "definition": "A recurring named folk protagonist whose identity is defined by traditional name usage across diverse tales.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure is the central character of the narrative.",
+        "The character bears a name that is traditionally used within that culture as a recurring folk hero identifier (e.g. Jack in English, Ivan in Russian, Janezek in Slovene, etc.).",
+        "The same name appears across multiple independent types within the folk tradition.",
+        "The name may be applied to tales not originally associated with that character, functioning as a narrative placeholder."
+      ],
+      "supporting_criteria": [
+        "Name used for convenience by storyteller.",
+        "Equivalent forms exist in other cultures.",
+        "Appears in fairy tale and regional narratives.",
+        "Functions as generic “every man” hero."
+      ],
+      "exclusion_criteria": [
+        "Name appears only once in single narrative.",
+        "Name is tied to a single fixed mythological identity.",
+        "Character defined primarily by specific motif (e.g., dragon-slayer) rather than name recurrence.",
+        "Modern fictional character with no folkloric recurrence."
+      ]
+    },
+    {
+      "hero_type": "Jack and the Beanstalk",
+      "category": "Narrative Pattern / Motif",
+      "definition": "A tale pattern involving magical ascent to an ogre’s realm, theft of treasure, and the ogre’s death through destruction of the beanstalk.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero acquires or plants a magical object (typically beans) that produces a vertical passage to another realm.",
+        "The hero enters a realm ruled by a giant or ogre who possesses magical wealth.",
+        "The hero steals one or more magical objects from the ogre.",
+        "The ogre pursues the hero during descent, and the hero destroys the vertical passage (e.g., cutting the beanstalk), causing the ogre’s death.",
+        "The hero’s initial poverty is reversed through acquisition of magical wealth."
+      ],
+      "supporting_criteria": [
+        "Widowed mother.",
+        "Cow exchanged for beans.",
+        "Ogre’s wife assists hero.",
+        "Chant identifying human scent.",
+        "Marriage to princess.",
+        "Multiple theft visits before final escape."
+      ],
+      "exclusion_criteria": [
+        "No magical vertical ascent.",
+        "No ogre or giant antagonist in the other realm.",
+        "No theft of magical treasure.",
+        "No destructive severing of return path.",
+        "No transformation from poverty to wealth."
+      ]
+    },
+    {
+      "hero_type": "Jack Tale",
+      "category": "Narrative Pattern / Motif",
+      "definition": "Tales centered on a seemingly foolish Jack who succeeds through cunning, luck, or assistance rather than heroism.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The main hero in the narrative is a Jack (or cultural equivalent).",
+        "The protagonist is portrayed as bumbling, naïve, undeserving, or morally ambiguous.",
+        "The protagonist succeeds primarily through trickery, luck, assistance, accident, or cunning rather than courage or virtue.",
+        "The tale ends with material gain, marriage, elevation, or status improvement."
+      ],
+      "supporting_criteria": [
+        "Tasks imposed by authority figure.",
+        "Hero’s apparent foolishness masking shrewdness.",
+        "Hero can be morally ambiguous.",
+        "Tale ends victory over powerful adversary."
+      ],
+      "exclusion_criteria": [
+        "Hero succeeds through bravery or noble virtue.",
+        "Hero defined by moral purity (→ Fairy Tale Hero).",
+        "Narrative lacks comedic incompetence element.",
+        "Tale structured is connected to a specific motif (e.g. Jack and the Beanstalk).",
+        "Protagonist is not culturally recognized as Jack-type."
+      ]
+    },
+    {
+      "hero_type": "Liar",
+      "category": "Narrative Function",
+      "definition": "A hero distinguished by habitual and celebrated exaggeration, boasting, or tall-tale storytelling, often for comic effect.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero is characterized by repeated lying, boasting, or tall-tale storytelling.",
+        "The hero’s exaggeration is central to their identity (the figure is known as a “great liar” or equivalent).",
+        "The tradition treats the lying as a notable and often celebrated characteristic, rather than incidental deception."
+      ],
+      "supporting_criteria": [
+        "Exaggeration produces comic effect.",
+        "Tales emphasize improbable feats.",
+        "Hero is referred to as boaster, yarn-spinner, or great liar.",
+        "Associated with frontier or regional storytelling traditions.",
+        "May overlap with trickster or master thief traditions"
+      ],
+      "exclusion_criteria": [
+        "Character lies only incidentally.",
+        "Deception is villainous rather than celebrated.",
+        "Lying is strategic but not identity-defining.",
+        "Character’s reputation is not tied to exaggeration."
+      ]
+    },
+    {
+      "hero_type": "Local Hero",
+      "category": "Social Role",
+      "definition": "A hero whose recognition and significance are primarily confined to a particular local area.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure is primarily known and celebrated within a specific geographic community or region.",
+        "The figure forms part of local lore, custom, or collective memory.",
+        "The hero has not originally achieved widespread national or international recognition."
+      ],
+      "supporting_criteria": [
+        "Associated with a specific place name.",
+        "Associated with a local event.",
+        "Celebrated for eccentricity.",
+        "Subject of local song, booklet, or tradition.",
+        "May be an animal.",
+        "May later become nationally known.",
+        "May overlap with outlaw, occupational, or liar types."
+      ],
+      "exclusion_criteria": [
+        "Hero primarily recognized nationally or internationally.",
+        "Figure detached from specific geographic locality.",
+        "Fame originates outside local community.",
+        "Recognition purely literary without community embedding."
+      ]
+    },
+    {
+      "hero_type": "Lover",
+      "category": "Narrative Function",
+      "definition": "A hero whose defining condition or fate arises from romantic attachment.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The character’s story includes a romantic relationship.",
+        "The hero’s suffering, transformation, salvation, death, elevation, or restoration occurs because of romantic attachment (either their own or another’s).",
+        "The figure is commonly remembered in connection with a romantic relationship."
+      ],
+      "supporting_criteria": [
+        "Hero’s love leads to death (“died for love” motif).",
+        "Hero’s love breaks enchantment.",
+        "Hero’s love restores or heals.",
+        "Hero’s love elevates their social status.",
+        "Love endures separation or trials in the narrative.",
+        "Hero’s love is expressed through sacrifice."
+      ],
+      "exclusion_criteria": [
+        "Romantic attachment does not determine the hero’s outcome in the story.",
+        "The narrative would remain intact without the romantic element."
+      ]
+    },
+    {
+      "hero_type": "Magician",
+      "category": "Narrative Function",
+      "definition": "A hero defined by the possession and use of supernatural powers.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero possesses magical or supernatural abilities beyond ordinary human capacity.",
+        "These abilities are actively employed within the narrative.",
+        "The figure’s heroic identity is grounded in their magical power, not merely in courage, strength, or luck."
+      ],
+      "supporting_criteria": [
+        "Hero engages in magical contests.",
+        "Hero uses magic for prediction or prophecy.",
+        "Hero uses magic for transportation or movement.",
+        "Hero casts spells, charms or shapeshifts.",
+        "Hero commands animals.",
+        "Hero sends soul into another body.",
+        "Hero uses magic to benefit community.",
+        "Hero is associated with resistance to political power.",
+        "Hero is associated with or cheats the Devil.",
+        "Hero functions as healer."
+      ],
+      "exclusion_criteria": [
+        "Supernatural assistance comes from an external helper rather than the hero’s own power.",
+        "Magic is incidental and does not define the hero’s identity.",
+        "The hero’s defining trait is something else (e.g., dragon-slaying, lying, frontier life).",
+        "Magical power belongs to the hero’s enemy, not the hero."
+      ]
+    },
+    {
+      "hero_type": "Military Hero",
+      "category": "Social Role",
+      "definition": "A hero whose defining identity arises from service in war or military conflict.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure participates in organized warfare, armed conflict, or formal military service.",
+        "The figure’s cultural memory is grounded in their military exploits.",
+        "The hero is defined in tradition as soldier, warrior, sailor, admiral, or equivalent martial role."
+      ],
+      "supporting_criteria": [
+        "Hero is celebrated for their bravery, endurance or cleverness in battle.",
+        "Hero is celebrated for achieving military victory or an honorable defeat.",
+        "Hero may be a historical figure mythologized in folklore.",
+        "Hero may be a mythical warrior.",
+        "Hero is a female figure disguised as a male soldier in order to participate in battle.",
+        "Hero is motivated by loyalty.",
+        "Hero is associated with songs, ballads, or war legends."
+      ],
+      "exclusion_criteria": [
+        "Conflict is personal rather than organized warfare.",
+        "Violence is incidental to the hero’s identity.",
+        "Military element is only background and not identity-defining.",
+        "Hero primarily acts outside institutional authority."
+      ]
+    },
+    {
+      "hero_type": "National Hero",
+      "category": "Social Role",
+      "definition": "A hero widely recognized as representing the identity, values, or history of a nation.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure is widely recognized as representing a nation or national identity.",
+        "The figure is publicly commemorated or promoted through national institutions (education, civic ceremonies, monuments, holidays, etc.).",
+        "The hero’s reputation functions as a symbol of the nation’s values, history, or identity."
+      ],
+      "supporting_criteria": [
+        "The figure appears in national education, civic observances, or public holidays.",
+        "The figure is commemorated through monuments, statues, place names, or other public memorials.",
+        "The figure appears in official national representations such as postage stamps.",
+        "The figure originates as a historical person whose deeds became folkloric.",
+        "The figure originates as a legendary or symbolic character representing the nation.",
+        "The figure embodies stereotypical national characteristics.",
+        "The figure represents resistance to foreign domination.",
+        "The figure originates from warfare or military struggle.",
+        "The figure represents a national occupational stereotype (e.g. soldier types).",
+        "The figure represents a national feminine archetype (e.g mother, nurse, martyr).",
+        "The figure is associated with exploration or discovery linked to national identity.",
+        "The figure appears in “sleeping hero” traditions, returning when the nation needs them.",
+        "The figure emerges through interaction between folk tradition and official cultural representation."
+      ],
+      "exclusion_criteria": [
+        "The figure is only locally recognized rather than nationally known.",
+        "The figure lacks symbolic association with national identity.",
+        "The figure is not commemorated in national traditions or institutions."
+      ]
+    },
+    {
+      "hero_type": "Nautical Hero",
+      "category": "Social Role",
+      "definition": "A hero whose defining identity arises from exploits connected with seafaring or maritime life.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure’s exploits occur primarily in a maritime or seafaring context.",
+        "The figure’s reputation in tradition is grounded in activities connected with the sea.",
+        "The figure’s identity is defined through maritime roles or exploits (e.g., sailor, pirate, explorer, navigator, admiral)."
+      ],
+      "supporting_criteria": [
+        "The figure is a pirate or maritime outlaw.",
+        "The figure is a seafaring adventurer or voyager.",
+        "The figure is a smuggler operating at sea.",
+        "The figure is a naval commander or admiral.",
+        "The figure is an explorer or discoverer associated with sea voyages.",
+        "The figure is a fictional voyager whose adventures take place at sea.",
+        "The figure represents the occupational traditions of sailors.",
+        "The figure is associated with maritime saints or religious protectors of sailors.",
+        "The hero engages in armed conflict at sea.",
+        "The hero undertakes voyages involving supernatural encounters.",
+        "The hero performs feats of navigation or survival at sea."
+      ],
+      "exclusion_criteria": [
+        "The sea appears only incidentally and does not define the hero’s identity.",
+        "The figure’s reputation arises primarily from land-based exploits."
+      ]
+    },
+    {
+      "hero_type": "Non-human lover",
+      "category": "Narrative Function",
+      "definition": "A figure who forms a romantic relationship with a human while possessing a non-human nature.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The character possesses a non-human or supernatural identity.",
+        "The character forms a romantic relationship with a human partner.",
+        "The character’s non-human nature shapes the development or outcome of the relationship."
+      ],
+      "supporting_criteria": [
+        "The non-human lover conceals their true nature.",
+        "The human partner discovers the lover’s supernatural identity.",
+        "The relationship is governed by a taboo or condition.",
+        "The breaking of the taboo causes separation.",
+        "The non-human lover transforms between human and non-human forms.",
+        "The narrative ends with separation between the lovers."
+      ],
+      "exclusion_criteria": [
+        "Both lovers are human.",
+        "The supernatural character does not enter a romantic relationship with a human.",
+        "The supernatural identity is incidental and does not affect the relationship."
+      ]
+    },
+    {
+      "hero_type": "Numskull or Noodle",
+      "category": "Narrative Function",
+      "definition": "A hero characterized by extreme foolishness whose actions arise from misunderstanding instructions or taking them too literally.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero is defined by persistent foolishness or stupidity.",
+        "The hero performs actions based on misunderstanding instructions or interpreting them literally.",
+        "The character’s narrative role centers on foolish behavior that drives the story."
+      ],
+      "supporting_criteria": [
+        "The hero carries out absurd or impractical tasks due to misunderstanding.",
+        "The hero follows instructions exactly regardless of circumstances.",
+        "The hero performs actions that appear irrational or nonsensical.",
+        "The hero’s foolish behavior creates humorous situations.",
+        "The hero ultimately succeeds or benefits despite stupidity, often through luck.",
+        "The hero appears as an individual fool or as part of a “fool town” tradition."
+      ],
+      "exclusion_criteria": [
+        "The character’s defining trait is cleverness or deception (trickster).",
+        "The character’s foolishness is occasional rather than central to their identity.",
+        "The narrative does not revolve around misunderstandings or literal interpretations."
+      ]
+    },
+    {
+      "hero_type": "Occupational Hero",
+      "category": "Social Role",
+      "definition": "A hero who represents the skills, values, and traditions of a particular trade, profession, or occupation.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure is associated with a specific trade, profession, or occupation.",
+        "The figure represents the skills, values, or identity of that occupational group.",
+        "The figure’s reputation arises from exploits connected to that occupation."
+      ],
+      "supporting_criteria": [
+        "The figure is portrayed as larger-than-life or possessing extraordinary skill in their work.",
+        "The figure appears in tall tales or exaggerated stories related to occupational activities.",
+        "The figure originates in the traditions of a working group or labor community.",
+        "The figure is adopted by members of the occupation as a representative hero.",
+        "The figure may originate in literature but is later adopted by occupational folklore.",
+        "The figure performs superhuman feats connected with occupational tasks.",
+        "The figure becomes associated with local stories or traditions within the occupational community."
+      ],
+      "exclusion_criteria": [
+        "The figure is associated with an occupation but is not defined by occupational exploits.",
+        "The figure represents a patron saint of a trade rather than a heroic occupational figure."
+      ]
+    },
+    {
+      "hero_type": "Ogre",
+      "category": "Entity / Identity",
+      "definition": "A monstrous creature in folklore characterized by great strength and grotesque or frightening physical traits.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure is a monstrous or non-human creature rather than an ordinary human.",
+        "The figure is commonly described as an ogre or their cultural equivalents, possessing grotesque or frightening physical traits.",
+        "The figure possesses exaggerated physical power or monstrous characteristics."
+      ],
+      "supporting_criteria": [
+        "The figure is portrayed as evil or malevolent.",
+        "The figure is portrayed as stupid or easily deceived.",
+        "The figure functions as an antagonist to heroes or heroines.",
+        "The figure attempts to harm, capture, or consume humans.",
+        "The figure appears in monstrous forms such as giants, cannibals, trolls, ghouls, or similar beings.",
+        "The figure possesses unusual physical traits (e.g., gigantic size, one or many eyes, grotesque appearance).",
+        "The figure is defeated or outwitted by a hero."
+      ],
+      "exclusion_criteria": [
+        "The figure is human.",
+        "The figure lacks monstrous qualities."
+      ]
+    },
+    {
+      "hero_type": "Outlaw",
+      "category": "Social Role",
+      "definition": "A figure who lives outside the law but is celebrated in folklore as a defender or supporter of the poor and oppressed.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure operates outside legal authority or social law.",
+        "The figure is celebrated in folklore as a friend or protector of the poor or oppressed.",
+        "The figure’s heroic reputation arises from defying authorities perceived as unjust or oppressive."
+      ],
+      "supporting_criteria": [
+        "The figure enters outlawry because of unjust treatment by authorities or powerful individuals.",
+        "The figure robs the rich or powerful and redistributes wealth to the poor.",
+        "The figure demonstrates generosity or kindness toward the downtrodden.",
+        "The figure resists oppression or injustice.",
+        "The figure shows bravery and cleverness while evading capture.",
+        "The figure avoids unnecessary or unjustified violence.",
+        "The figure outwits authorities through cunning or daring escapes.",
+        "The figure operates from remote hideouts such as forests, mountains, marshes, or other secluded areas.",
+        "The figure is supported by a gang, community members, or family.",
+        "The figure appears in songs, ballads, or legendary tales about their exploits.",
+        "The figure’s story includes exaggerated or apocryphal adventures.",
+        "The figure becomes a symbol of resistance in situations of political oppression or colonization.",
+        "The figure may be perceived as heroic by some groups and criminal by others."
+      ],
+      "exclusion_criteria": [
+        "The figure operates outside the law but lacks support or admiration from the poor or oppressed.",
+        "The figure’s actions serve primarily personal gain rather than social justice or aid to others.",
+        "The figure’s reputation does not involve resistance to perceived injustice."
+      ]
+    },
+    {
+      "hero_type": "Puss in Boots",
+      "category": "Narrative Pattern / Motif",
+      "definition": "A narrative pattern in which a clever animal helper enables a poor or socially inferior young man to obtain wealth, status, and marriage to a princess through trickery and deception.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The protagonist is a poor or socially inferior young man.",
+        "The protagonist receives assistance from a clever animal helper.",
+        "The animal helper uses cunning or deception to improve the hero’s social position.",
+        "The outcome of the story is the hero’s acquisition of wealth, status, or marriage to a princess."
+      ],
+      "supporting_criteria": [
+        "The hero begins with little or no wealth or inheritance.",
+        "The animal helper speaks or behaves with human intelligence.",
+        "The helper constructs a false identity for the hero (e.g. noble title).",
+        "The helper manipulates others through threats or deception.",
+        "The helper eliminates obstacles through cunning.",
+        "The hero plays a passive role while the helper performs most of the action.",
+        "The story involves deception or morally ambiguous trickery."
+      ],
+      "exclusion_criteria": [
+        "The hero achieves success without the intervention of an animal helper.",
+        "The helper is human rather than animal.",
+        "The animal helper does not use cunning or deception to secure the hero’s rise in status."
+      ]
+    },
+    {
+      "hero_type": "Religious Hero",
+      "category": "Social Role",
+      "definition": "A figure celebrated in religious tradition whose actions, teachings, suffering, or supernatural abilities embody the values and beliefs of a religious system.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure is associated with a religious belief system or spiritual tradition.",
+        "The figure is celebrated for actions, virtues, or sacrifices connected to religious belief.",
+        "The figure’s reputation or narratives arise from religious traditions, sacred texts, or associated folklore."
+      ],
+      "supporting_criteria": [
+        "The figure is a founder of a religion or religious movement.",
+        "The figure is a helper or close associate of a religious founder.",
+        "The figure is a martyr who suffers or dies for religious beliefs.",
+        "The figure is officially recognized as a saint or holy person.",
+        "The figure demonstrates religious virtues such as piety, compassion, bravery, wisdom, or devotion.",
+        "The figure is associated with miraculous or supernatural powers.",
+        "The figure performs acts of healing or spiritual assistance.",
+        "The figure appears in religious texts, sacred narratives, or apocryphal traditions.",
+        "The figure appears in folk traditions connected to religious practice or belief.",
+        "The figure’s stories are transmitted through folklore, humor, or everyday storytelling.",
+        "The figure appears in folk drama or religious performance traditions.",
+        "The figure’s traditions spread across cultures as religious beliefs spread.",
+        "The figure’s stories connect religious authority with everyday life."
+      ],
+      "exclusion_criteria": [
+        "The figure lacks a connection to religious belief, doctrine, or spiritual tradition.",
+        "The figure’s heroic reputation arises entirely from non-religious actions.",
+        "The figure does not participate in or represent a religious system."
+      ]
+    },
+    {
+      "hero_type": "Santa Claus",
+      "category": "Entity / Identity",
+      "definition": "A folkloric figure associated with Christmas who distributes gifts and embodies seasonal generosity and celebration.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure is associated with Christmas or a winter gift-giving tradition.",
+        "The figure distributes gifts, especially to children.",
+        "The figure is recognized as a folkloric or cultural character associated with Christmas celebrations."
+      ],
+      "supporting_criteria": [
+        "The figure derives historically from Saint Nicholas or related winter traditions.",
+        "The figure appears under different names across cultures (e.g., Santa Claus, Father Christmas, Sinterklaas).",
+        "The figure is portrayed as an elderly, bearded man associated with generosity and festivity.",
+        "The figure becomes widely known through popular culture or mass media.",
+        "The figure appears in seasonal customs, songs, or celebrations.",
+        "The figure is accompanied by assistants or companion figures."
+      ],
+      "exclusion_criteria": [
+        "The character is unrelated to Christmas or winter gift-giving traditions.",
+        "The character does not function as a gift-bringer associated with seasonal celebrations."
+      ]
+    },
+    {
+      "hero_type": "Shape-Shifter",
+      "category": "Narrative Function",
+      "definition": "A hero with the supernatural ability to transform into different forms such as animals, objects, or other beings.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The character possesses the ability to change physical form.",
+        "The character transforms into other forms such as animals, objects, supernatural beings, or other entities.",
+        "The character’s transformations play a role in the events or actions of the narrative."
+      ],
+      "supporting_criteria": [
+        "The character uses shape-shifting in contests or competitions with others.",
+        "The character uses transformation to pursue or obtain a romantic partner.",
+        "The character uses transformation to escape danger or evade pursuers.",
+        "The character uses transformation as disguise.",
+        "The character uses transformation to enter otherwise inaccessible places.",
+        "The character participates in magical contests with villains or sorcerers involving transformation.",
+        "The character appears in traditions where transformation is associated with trickster figures."
+      ],
+      "exclusion_criteria": [
+        "The character changes form through external magic performed by another character rather than through their own ability.",
+        "The character’s transformation occurs as a curse or enchantment without the ability to change form intentionally.",
+        "The character does not possess the ability to transform into different forms."
+      ]
+    },
+    {
+      "hero_type": "Sleeper",
+      "category": "Narrative Function",
+      "definition": "A hero whose story involves being placed into a prolonged magical or supernatural sleep and awakening after an extended period or through special circumstances.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero enters a prolonged sleep lasting far longer than normal human sleep.",
+        "The sleep occurs through supernatural, magical, or extraordinary circumstances.",
+        "The hero later awakens after the extended sleep."
+      ],
+      "supporting_criteria": [
+        "The sleeping hero awakens when their people require help or in a time of national crisis.",
+        "The hero falls asleep after encountering supernatural beings.",
+        "The hero awakens after many years to discover that generations have passed.",
+        "The sleeping figure resides in caves, mountains, or hidden locations during the sleep.",
+        "The hero is awakened by magical action such as a kiss, spell-breaking, or other intervention.",
+        "The sleeping hero marries the rescuer after awakening (fairy-tale pattern)."
+      ],
+      "exclusion_criteria": [
+        "The hero simply sleeps normally without supernatural cause or duration.",
+        "The hero dies rather than sleeping and awakening later.",
+        "The hero’s sleep does not extend beyond ordinary human time."
+      ]
+    },
+    {
+      "hero_type": "Thief",
+      "category": "Narrative Function",
+      "definition": "A hero whose defining trait is exceptional skill in stealing, typically demonstrated through clever deception or trickery.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero is defined by their ability to steal valuable objects.",
+        "The theft is accomplished through cleverness, trickery, or deception rather than brute force.",
+        "The hero’s theft forms a central action in the narrative."
+      ],
+      "supporting_criteria": [
+        "The hero claims or is known to be a master thief.",
+        "The hero steals from powerful authority figures such as kings or aristocrats.",
+        "The hero successfully completes a series of increasingly difficult thefts.",
+        "The hero steals objects directly from guarded locations (e.g., royal chambers).",
+        "The hero escapes punishment or execution through deception.",
+        "The hero begins as a lazy or unpromising figure who proves their ability through theft."
+      ],
+      "exclusion_criteria": [
+        "The hero steals only incidentally and is not defined by theft.",
+        "The hero relies primarily on violence rather than trickery.",
+        "Theft is carried out by another character rather than the hero."
+      ]
+    },
+    {
+      "hero_type": "Tooth Fairy, The",
+      "category": "Entity / Identity",
+      "definition": "A fairy associated with children’s customs in which a child’s fallen milk tooth is taken during the night and replaced with a small payment.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The figure is a fairy associated with children’s lost milk teeth.",
+        "The figure removes a child’s fallen tooth during the night.",
+        "The figure leaves a small payment or token in place of the tooth."
+      ],
+      "supporting_criteria": [
+        "The child places the tooth under a pillow or in a container before sleep.",
+        "The tooth disappears overnight and is replaced with money or another small reward.",
+        "The figure forms part of a childhood custom surrounding the loss of baby teeth.",
+        "The tradition appears in modern folklore and popular culture."
+      ],
+      "exclusion_criteria": [
+        "The character is unrelated to the exchange of children’s lost teeth.",
+        "The figure does not remove the tooth or replace it with a payment.",
+        "The narrative concerns general fairy beings without the tooth-exchange tradition."
+      ]
+    },
+    {
+      "hero_type": "Trickster",
+      "category": "Narrative Function",
+      "definition": "A hero characterized by playing tricks, engaging in buffoonery, and violating social or cultural norms.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The character regularly plays tricks on others.",
+        "The character engages in behavior that violates social rules, taboos, or accepted norms.",
+        "The character’s trickery or transgressive actions are central to the narrative."
+      ],
+      "supporting_criteria": [
+        "The character behaves in foolish, buffoonish, or clown-like ways.",
+        "The character commits outrageous or improper acts but avoids serious consequences.",
+        "The character deceives others in order to gain advantage or revenge.",
+        "The character alternates between cleverness and stupidity.",
+        "The character sometimes acts as a culture or creator figure within a tradition.",
+        "The character appears in stories that emphasize paradox, contradiction, or moral ambiguity."
+      ],
+      "exclusion_criteria": [
+        "Deception or trickery occurs only once and does not define the character.",
+        "The character follows social rules and norms rather than violating them."
+      ]
+    },
+    {
+      "hero_type": "Under/Other world Visitor",
+      "category": "Narrative Pattern / Motif",
+      "definition": "A hero who enters or is taken into an otherworldly realm, interacts with that world, and returns to or attempts to return to the human world.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero enters or is taken into a supernatural realm separate from the human world (e.g. underworld, fairyland, spirit world, underground kingdom).",
+        "The supernatural realm is inhabited or controlled by non-human beings (e.g. spirits, devils, fairies, demons, supernatural rulers).",
+        "The hero’s journey to the otherworld is central to the narrative."
+      ],
+      "supporting_criteria": [
+        "The hero travels between the human world and the otherworld.",
+        "The hero rescues or attempts to rescue someone from the otherworld.",
+        "The hero is captured, enchanted, or held captive in the otherworld.",
+        "The hero retrieves a person, object, or knowledge from the otherworld.",
+        "The hero encounters supernatural trials, beings, or obstacles in the otherworld.",
+        "The hero returns to the human world after the otherworld journey.",
+        "Entry to the otherworld occurs through a specific, liminal location (e.g.,cave, lake, underground passage, forest, magical site)."
+      ],
+      "exclusion_criteria": [
+        "The otherworld or supernatural realm is only briefly mentioned and not central to the narrative.",
+        "The character permanently belongs to the otherworld rather than visiting it.",
+        "No journey or transition between the human world and the otherworld occurs."
+      ]
+    },
+    {
+      "hero_type": "Unpromising Hero",
+      "category": "Narrative Pattern / Motif",
+      "definition": "A hero whose defining narrative pattern is rising from an underestimated, disadvantaged, or unlikely position to achieving success, thereby overturning the expectations of others.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero begins the narrative as socially or personally disadvantaged.",
+        "The hero is initially underestimated, ridiculed, dismissed, or regarded as unlikely to succeed.",
+        "The hero ultimately succeeds in achieving wealth, status, victory, recognition, or reward."
+      ],
+      "supporting_criteria": [
+        "The hero is poor, low-status, physically unimpressive, foolish-seeming, lazy-seeming, or otherwise unpromising at the start.",
+        "The hero is the youngest, least valued, or weakest member of a family or group.",
+        "The hero begins with little or no resources.",
+        "The hero receives help from animals, helpers, magic, or unexpected allies.",
+        "The hero succeeds through cunning, luck, persistence, or an unexpected talent.",
+        "The hero’s success overturns the expectations of others.",
+        "The hero gains marriage, wealth, office, or elevated social position at the end."
+      ],
+      "exclusion_criteria": [
+        "The hero begins the narrative already powerful, wealthy, respected, or obviously capable.",
+        "The hero’s success does not reverse an initially low or unlikely position.",
+        "The narrative does not depend on the contrast between the hero’s unpromising beginning and successful ending."
+      ]
+    },
+    {
+      "hero_type": "Victim",
+      "category": "Narrative Function",
+      "definition": "A hero best known for being the victim of violence, intrigue, oppression, disaster, or other malevolence.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The character suffers harm, injustice, or misfortune caused by violence, intrigue, oppression, disaster, or malicious actions.",
+        "The character’s victimization is central to the narrative and defines their role in the story.",
+        "The narrative focuses on the suffering, persecution, or tragic fate of the character."
+      ],
+      "supporting_criteria": [
+        "The hero is murdered, harmed, or betrayed by another character.",
+        "The hero suffers because of jealousy, rivalry, or family betrayal.",
+        "The hero is the victim of political intrigue or persecution.",
+        "The hero becomes associated with a historical tragedy or disaster.",
+        "The hero experiences repeated misfortune or persecution.",
+        "The hero’s suffering generates sympathy and moral outrage in the narrative.",
+        "The hero begins the story as a victim but later escapes or overcomes the oppression.",
+        "The hero receives help from others that allows them to survive or recover from their victimization."
+      ],
+      "exclusion_criteria": [
+        "The character’s suffering is minor or incidental to the narrative.",
+        "The character is primarily defined by heroic action rather than victimization.",
+        "The narrative does not center on injustice, persecution, or harm experienced by the character."
+      ]
+    },
+    {
+      "hero_type": "Villain",
+      "category": "Narrative Function",
+      "definition": "A hero whose purpose is to oppose, obstruct, or undermine the protagonist, often personifying the principle of evil and disrupting the rightful order of things.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The character opposes, obstructs, or undermines the protagonist.",
+        "The character represents evil, wrongdoing, or a force that disrupts the rightful order.",
+        "The character creates the central conflict that must be overcome to restore order."
+      ],
+      "supporting_criteria": [
+        "The villain possesses supernatural or magical abilities.",
+        "The villain appears as a monstrous or supernatural being (e.g., witch, demon, dragon, giant, ogre, serpent).",
+        "The villain lives apart from human society in remote or dangerous locations.",
+        "The villain harms, deceives, or threatens humans.",
+        "The villain enslaves, captures, or endangers victims.",
+        "The villain may occasionally assist the protagonist but generally serves antagonistic purposes.",
+        "The villain symbolizes a broader force of evil or disorder."
+      ],
+      "exclusion_criteria": [
+        "The figure does not oppose or obstruct the protagonist.",
+        "The figure’s actions do not represent wrongdoing or malevolence.",
+        "The figure functions primarily as a helper, neutral figure, or victim rather than an antagonist."
+      ]
+    },
+    {
+      "hero_type": "Warrior",
+      "category": "Social Role",
+      "definition": "A hero whose defining role is associated with their warrior status, bearing arms against enemies and performing deeds of bravery in combat.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero engages in armed conflict against enemies (human, animal, or supernatural).",
+        "The hero’s role as a fighter or combatant is central to the narrative.",
+        "The hero demonstrates bravery in battle."
+      ],
+      "supporting_criteria": [
+        "The hero possesses great physical strength.",
+        "The hero displays skill or prowess with weapons.",
+        "The hero leads others in battle or commands warriors.",
+        "The hero defends a people, culture, or territory from enemies.",
+        "The hero performs extraordinary feats of combat.",
+        "The hero possesses magical abilities or receives supernatural assistance in battle.",
+        "The hero eventually becomes a ruler or political leader.",
+        "The hero dies a heroic death in battle or after recounting heroic deeds.",
+        "The hero participates in warfare while disguised or outside traditional gender roles."
+      ],
+      "exclusion_criteria": [
+        "The character does not engage in combat or warfare.",
+        "The character’s role is primarily non-martial (e.g., healer, trickster, lover, or victim).",
+        "Combat is incidental rather than central to the character’s role in the narrative."
+      ]
+    },
+    {
+      "hero_type": "Wise Man/Woman",
+      "category": "Narrative Function",
+      "definition": "A hero whose defining narrative function is the use of wisdom, intelligence, or cleverness to solve problems, overcome enemies, or assist others.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The hero demonstrates wisdom as a defining attribute.",
+        "The hero uses wisdom, intelligence, or sound judgment to resolve conflicts or overcome challenges.",
+        "The hero’s wisdom plays a central role in the narrative."
+      ],
+      "supporting_criteria": [
+        "The hero possesses magical powers used wisely or for good.",
+        "The hero is a religious or spiritual figure associated with wisdom.",
+        "The hero uses cleverness or wit to outsmart enemies or opponents.",
+        "The hero solves riddles, puzzles, or impossible tasks.",
+        "The hero helps others through wise advice or decisions.",
+        "The hero demonstrates cunning or strategic thinking to avoid danger or defeat villains.",
+        "The hero’s wisdom is recognized or sought by others."
+      ],
+      "exclusion_criteria": [
+        "The character relies primarily on physical strength, combat ability, or warfare.",
+        "Magical power alone defines the character without associated wisdom.",
+        "The character’s intelligence is incidental rather than central to their role in the narrative."
+      ]
+    },
+    {
+      "hero_type": "Woman Dressed as Man",
+      "category": "Narrative Pattern / Motif",
+      "definition": "A heroine who disguises herself as a man in order to pursue activities or roles typically associated with men, such as warfare, travel, or adventure.",
+      "necessary_logic": "AND",
+      "necessary_criteria": [
+        "The character is a woman who adopts male clothing or identity.",
+        "The disguise allows the heroine to participate in activities typically reserved for men (e.g. becoming a soldier, sailor, highway robber, smuggler).",
+        "The cross-dressing is central to the narrative."
+      ],
+      "supporting_criteria": [
+        "The heroine disguises herself to follow or remain close to a male lover.",
+        "The heroine disguises herself to participate in warfare or military service.",
+        "The heroine undertakes travel, adventure, or dangerous work while disguised as a man.",
+        "The disguise allows the heroine to circumvent social rules restricting women’s behavior.",
+        "The heroine demonstrates bravery, skill, or independence while in disguise.",
+        "The heroine becomes known for activities normally associated with male heroes (e.g., fighting, riding, shooting)."
+      ],
+      "exclusion_criteria": [
+        "The character does not adopt male clothing or identity.",
+        "The disguise is brief or incidental rather than central to the story.",
+        "The character participates in male-associated activities without disguising herself as a man."
+      ]
+    }
+  ]
+}
