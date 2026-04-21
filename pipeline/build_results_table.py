@@ -7,12 +7,12 @@ from typing import Any, Dict, List, Optional, Tuple
 # CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
 
+FRAMEWORK_JSON  = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
 ASSESSMENT_DIR  = Path("qwen_assessment_output/criteria_assessment_output")
-FRAMEWORK_JSON  = Path("hero_type_criteria/Hero_Type_Criteria_Framework_v0.1.json")
 OUTPUT_CSV      = Path("qwen_assessment_output/hero_type_results_qwen.csv")
 
+#FRAMEWORK_JSON  = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
 #ASSESSMENT_DIR  = Path("gemini_assessment_output/criteria_assessment_output")
-#FRAMEWORK_JSON  = Path("hero_type_criteria/Hero_Type_Criteria_Framework_v0.1.json")
 #OUTPUT_CSV      = Path("gemini_assessment_output/hero_type_results_gemini.csv")
 
 

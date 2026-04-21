@@ -10,12 +10,12 @@ import networkx as nx
 # CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
 
+FRAMEWORK_JSON = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
 CSV_PATH       = Path("qwen_assessment_output/hero_type_results_qwen.csv")
-FRAMEWORK_JSON = Path("hero_type_criteria/Hero_Type_Criteria_Framework_v0.1.json")
 OUTPUT_DIR     = Path("qwen_assessment_output/knowledge_graph")
 
+#FRAMEWORK_JSON = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
 #CSV_PATH       = Path("gemini_assessment_output/hero_type_results_gemini.csv")
-#FRAMEWORK_JSON = Path("hero_type_criteria/Hero_Type_Criteria_Framework_v0.1.json")
 #OUTPUT_DIR     = Path("gemini_assessment_output/knowledge_graph")
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

@@ -14,7 +14,7 @@ from vllm import LLM, SamplingParams
 # ─────────────────────────────────────────────────────────────────────────────
 
 TALES_ROOT     = Path("folk_stories")
-FRAMEWORK_JSON = Path("hero_type_criteria/Hero_Type_Criteria_Framework_v0.1.json")
+FRAMEWORK_JSON = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
 OUTPUT_DIR     = Path("criteria_assessment_output")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 

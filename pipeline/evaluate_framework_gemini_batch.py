@@ -14,7 +14,7 @@ from google.genai import types
 # ─────────────────────────────────────────────────────────────────────────────
 
 TALES_ROOT        = Path("folk_stories")
-FRAMEWORK_JSON    = Path("hero_type_criteria/Hero_Type_Criteria_Framework_v0.1.json")
+FRAMEWORK_JSON    = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
 CHARACTERS_CONFIG = Path("folk_stories/characters_config.json")
 OUTPUT_DIR        = Path("gemini_assessment_output/criteria_assessment_output")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
