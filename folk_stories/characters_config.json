@@ -1,20 +1,99 @@
 {
   "the_blue_fairy_book": {
+    "05_LITTLE_RED_RIDING_HOOD.txt": [
+      "Little Red Riding-Hood"
+    ],    
     "06_THE_SLEEPING_BEAUTY_IN_THE_WOOD.txt": [
       "the Princess"
+    ],
+    "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER.txt": [
+      "Cinderella",
+      "The Fairy Godmother"
+    ],
+    "08_ALADDIN_AND_THE_WONDERFUL_LAMP.txt": [
+      "Aladdin"
+    ],
+    "11_BEAUTY_AND_THE_BEAST.txt": [
+      "Beauty",
+      "The Beast"
+    ],
+    "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS.txt": [
+      "Puss in Boots"
+    ],
+    "23_THE_FORTY_THIEVES.txt": [
+      "Ali Baba"
+    ],
+    "24_HANSEL_AND_GRETTEL.txt": [
+      "Gretel",
+      "Hansel"
+    ],
+    "25_SNOW_WHITE_AND_ROSE_RED.txt": [
+      "Rose-Red",
+      "Snow-White"
+    ],
+    "26_THE_GOOSE_GIRL.txt": [
+      "The Goose-Girl"
+    ],
+    "29_BLUE_BEARD.txt": [
+      "Blue Beard",
+      "Fatima"
+    ],
+    "34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU.txt": [
+      "Prince Ahmed"
     ],
     "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER.txt": [
       "Jack",
       "the Giant"
     ]
-  },  
+  },
+  "the_brown_fairy_book": {
+    "07_THE_CUNNING_HARE.txt": [
+      "The Cunning Hare"
+    ]
+  },
+  "the_green_fairy_book": {
+    "02_THE_HALF_CHICK.txt": [
+      "Half-Chick"
+    ],
+    "24_THE_STORY_OF_THE_THREE_BEARS.txt": [
+      "Goldilocks",
+      "The Father Bear"
+    ]
+  },
+  "the_pink_fairy_book": {
+    "17_SNOWFLAKE.txt": [
+      "Ivan"
+    ],
+    "38_THE_LITTLE_HARE.txt": [
+      "The Little Hare"
+    ],
+    "41_DON_GIOVANNI_DE_LA_FORTUNA.txt": [
+      "The Devil"
+    ]
+  },
   "the_red_fairy_book": {
+    "04_THE_DEATH_OF_KOSHCHEI_THE_DEATHLESS.txt": [
+      "Ivan Tsarevich",
+      "Koshchei the Deathless"
+    ],
+    "10_THE_NORKA.txt": [
+      "Ivan"
+    ],
     "12_JACK_AND_THE_BEANSTALK.txt": [
       "Jack",
       "the Giant"
+    ],
+    "27_RAPUNZEL.txt": [
+      "Rapunzel"
     ]
-  },  
-  "armenian_folk_tales_and_fables": {
+  },
+  "the_violet_fairy_book": {
+    "14_HOW_A_FISH_SWAM_IN_THE_AIR_AND_A_HARE_IN_THE_WATER.txt": [
+      "The Hare"
+    ]
+  },
+  
+  "armenian_fairy_tales_and_fables": {
     "LOQMAN_THE_WISE.txt": [
       "Loqman"
     ]
@@ -22,6 +101,11 @@
   "canadian_fairy_tales": {
     "SAINT_NICHOLAS_AND_THE_CHILDREN.txt": [
       "Saint Nicholas"
+    ]
+  },
+  "Fairy_Tales_Vol2": {
+    "01_THE_SLEEPING_BEAUTY_IN_THE_WOOD.txt": [
+      "the Princess"
     ]
   },
   "grimm_fairy_tales": {
