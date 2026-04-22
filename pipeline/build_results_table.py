@@ -42,25 +42,15 @@ def categorical_result(
     if matched_nec == 0 and matched_sup == 0:
         return "No fit"
 
-    # 3. Definitive — all necessary criteria met (split by supporting richness)
-    if nec_pct == 1.0:
-        if sup_pct > 0.30:
-            return "Definitive - strong support"
-        else:
-            return "Definitive - low support"
-
-    # 4. Strong — >60% necessary (split by supporting richness)
+    # 3. Strong — >60% necessary
     if nec_pct > 0.60:
-        if sup_pct > 0.30:
-            return "Strong - good support"
-        else:
-            return "Strong - low support"
+        return "Strong"
 
-    # 5. Partial — ≤60% necessary but >30% supporting
+    # 4. Partial — ≤60% necessary but >30% supporting
     if sup_pct > 0.30:
         return "Partial"
 
-    # 6. Weak — low signal on both, but something matched
+    # 5. Weak — low signal on both, but something matched
     return "Weak"
 
 
