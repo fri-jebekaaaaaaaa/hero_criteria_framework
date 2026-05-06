@@ -24,7 +24,7 @@
   ],
   "Beauty": [
     {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"},
-    {"character": "Fatima", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"},
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"},
     {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED"},
     {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED"},
     {"character": "Rapunzel", "book": "the_red_fairy_book", "tale":"27_RAPUNZEL"},          
@@ -221,7 +221,7 @@
     {"character": "Cinderella", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"},
     {"character": "Gretel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL"},
     {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL"},
-    {"character": "Fatima", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"}
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"}
   ],
   "Villain": [
     {"character": "Blue Beard", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"},
@@ -236,7 +236,7 @@
     {"character": "Dunai", "book": "the_russian_story_book", "tale": "HOW_QUIET_DUNAI_HAD_BROUGHT_THE_PRINCESS_APRAXIA_TO_KIEV"}
   ],
   "Wise Man/Woman": [
-    {"character": "Fatima", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"}
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"}
   ],
   "Woman Dressed as Man": [
     {"character": "Mulan", "book": "li_napei-old_tales_of_china", "tale": "HUA_MULAN"}
