@@ -1,0 +1,86 @@
+{
+  "Animal and Animal-Related": [
+    {"character": "Goldilocks","book": "the_green_fairy_book","tale": "24_THE_STORY_OF_THE_THREE_BEARS"},
+    {"character": "Little Red Riding-Hood","book": "the_blue_fairy_book","tale": "05_LITTLE_RED_RIDING_HOOD"}
+  ],
+  "Arabian Nights Character": [
+    {"character": "Aladdin","book": "the_blue_fairy_book","tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP"}
+  ],
+  "Archer": [],
+  "Beauty": [],
+  "Beauty and the Beast": [],
+  "Celebrity Hero": [],
+  "Childrens Hero": [
+    {"character": "Goldilocks","book": "the_green_fairy_book","tale": "24_THE_STORY_OF_THE_THREE_BEARS"},
+    {"character": "Little Red Riding-Hood","book": "the_blue_fairy_book","tale": "05_LITTLE_RED_RIDING_HOOD"}
+  ],
+  "Cinderella": [],
+  "Culture Hero": [],
+  "Devil, The": [],
+  "Diminutive Being": [],
+  "Dragon-Slayer": [
+    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+  ],
+  "Fairy": [],
+  "Fairy Godmother": [],
+  "Fairy Tale Hero": [
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"}
+  ],
+  "Frontier Hero": [],
+  "Giant-Killer": [
+    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+  ],
+  "Hare": [],
+  "Healer": [],
+  "Helper": [],
+  "Hero of Struggle": [],
+  "Jack": [
+    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+  ],
+  "Jack and the Beanstalk": [],
+  "Jack Tale": [],
+  "Liar": [],
+  "Local Hero": [],
+  "Lover": [
+    {"character": "Aladdin","book": "the_blue_fairy_book","tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP"}
+  ],
+  "Magician": [],
+  "Military Hero": [],
+  "National Hero": [],
+  "Nautical Hero": [],
+  "Non-human lover": [],
+  "Numskull or Noodle": [],
+  "Occupational Hero": [],
+  "Ogre": [],
+  "Outlaw": [],
+  "Puss in Boots": [],
+  "Religious Hero": [],
+  "Santa Claus": [],
+  "Shape-Shifter": [],
+  "Sleeper": [],
+  "Thief": [],
+  "Tooth Fairy, The": [],
+  "Trickster": [
+    {"character": "Aladdin","book": "the_blue_fairy_book","tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP"}
+  ],
+  "Under/Other world Visitor": [
+    {"character": "Aladdin","book": "the_blue_fairy_book","tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP"}
+  ],
+  "Unpromising Hero": [
+    {"character": "Aladdin","book": "the_blue_fairy_book","tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP"}
+  ],
+  "Victim": [
+    {"character": "Little Red Riding-Hood", "book": "the_blue_fairy_book", "tale": "05_LITTLE_RED_RIDING_HOOD"},
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"}
+  ],
+  "Villain": [
+    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS" }
+  ],
+  "Warrior": [
+    {"character": "Jack", "book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+  ],
+  "Wise Man/Woman": [
+    { "character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+  ],
+  "Woman Dressed as Man": []
+}
