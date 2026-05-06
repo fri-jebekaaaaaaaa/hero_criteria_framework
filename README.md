@@ -34,12 +34,96 @@ Results are aggregated into categorical fit scores (Strong, Partial, Weak, No fi
 │   └── step2_evidence_extraction.txt   # Step 2 prompt template
 └── README.md
 ```
-
+## Installation
+ 
+```bash
+pip install google-genai vllm networkx openpyxl 
+```
+ 
+For Qwen3 evaluation, a SLURM cluster with vLLM is required. See `evaluate_framework_two-step.py` for configuration.
+ 
+For Gemini batch evaluation, set your API key:
+ 
+```bash
+# Linux / Mac
+export GEMINI_API_KEY="your_key"
+ 
+# Windows (PowerShell)
+$env:GEMINI_API_KEY="your_key"
+```
+ 
+## Usage
+ 
+All scripts are run from the **project root**. The easiest way to run the full pipeline is through `framework_pipeline.py`:
+ 
+```bash
+python framework_pipeline.py
+```
+ 
+This runs all steps for both models in order, comparing against both Seal & White's index and manual annotations. You can control which steps, models, and ground truth to use:
+ 
+```bash
+# Run only Gemini
+python framework_pipeline.py --models gemini
+ 
+# Run only Qwen
+python framework_pipeline.py --models qwen
+ 
+# Skip evaluation (steps 1 & 2), only run post-processing
+python framework_pipeline.py --skip-eval
+ 
+# Run specific steps only
+python framework_pipeline.py --steps 3 4 5
+ 
+# Compare against Seal & White only (no manual annotations required)
+python framework_pipeline.py --ground-truth seal
+ 
+# Compare against manual annotations only
+python framework_pipeline.py --ground-truth manual
+ 
+# Combine arguments — e.g. run Gemini evaluation and comparison against Seal & White only
+python framework_pipeline.py --models gemini --steps 1 3 5 --ground-truth seal
+```
+ 
+### Pipeline Steps
+ 
+| Step | Script | Description |
+|------|--------|-------------|
+| 1 | `evaluate_framework_gemini_batch.py` | Gemini batch evaluation (requires `GEMINI_API_KEY`) |
+| 2 | `evaluate_framework_two-step.py` | Qwen3 vLLM evaluation (requires HPC cluster with vLLM) |
+| 3 | `build_result_table.py` | Aggregates assessment JSONs into a results CSV |
+| 4 | `build_knowledge_graph.py` | Builds GEXF/GraphML knowledge graph for Gephi |
+| 5 | `compare_against_ground_truth.py` | Compares results against Seal & White index |
+| 6 | `compare_against_ground_truth.py` | Compares results against manual annotations |
+ 
+Each pipeline script can also be run independently:
+ 
+```bash
+python pipeline/build_result_table.py --model gemini
+python pipeline/build_knowledge_graph.py --model qwen
+python pipeline/compare_against_ground_truth.py --model gemini --ground-truth seal-white
+python pipeline/compare_against_ground_truth.py --model gemini --ground-truth manual
+```
+ 
 ## Prompt Templates
-The prompts/ directory contains the prompt templates used in both pipeline steps. Variables in {BRACKETS} are filled dynamically at runtime:
-
-- {CHARACTER} — name of the character to evaluate
-- {STORY_TITLE} — title of the story
-- {STORY_TEXT} — full text of the story
-- {HERO_TYPE} — hero type criteria object (name, category, definition, criteria)
-- {n_necessary} — number of necessary criteria for the hero type
+ 
+The `prompts/` directory contains the prompt templates used in both pipeline steps. Variables in `{BRACKETS}` are filled dynamically at runtime:
+ 
+| Variable | Description |
+|---|---|
+| `{CHARACTER}` | Name of the character to evaluate |
+| `{STORY_TITLE}` | Title of the story |
+| `{STORY_TEXT}` | Full text of the story |
+| `{HERO_TYPE}` | Hero type criteria object (name, category, definition, criteria) |
+| `{n_necessary}` | Number of necessary criteria for the hero type |
+ 
+## Fit Score Categories
+ 
+| Score | Condition |
+|---|---|
+| **Strong** | Necessary criteria > 60% |
+| **Partial** | Necessary ≤ 60% and supporting criteria > 30% |
+| **Weak** | Necessary ≤ 60% and supporting ≤ 30% (but something matched) |
+| **No fit** | Necessary = 0 and supporting = 0 |
+| **Disqualified** | Any exclusion criterion matched |
+ 
