@@ -10,21 +10,25 @@ import networkx as nx
 # CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
 
-#FRAMEWORK_JSON = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
-#CSV_PATH       = Path("qwen_assessment_output/hero_type_results_qwen.csv")
-#OUTPUT_DIR     = Path("qwen_assessment_output/knowledge_graph")
-
 FRAMEWORK_JSON = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
-CSV_PATH       = Path("gemini_assessment_output/hero_type_results_gemini.csv")
-OUTPUT_DIR     = Path("gemini_assessment_output/knowledge_graph")
+ 
+MODEL_CONFIGS = {
+    "gemini": {
+        "csv_path":   Path("gemini_assessment_output/hero_type_results_gemini.csv"),
+        "output_dir": Path("gemini_assessment_output/knowledge_graph")
+    },
+    "qwen": {
+        "csv_path":   Path("qwen_assessment_output/hero_type_results_qwen.csv"),
+        "output_dir": Path("qwen_assessment_output/knowledge_graph")
+    }
+}
 
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Only include FITS edges at or above this strength level
 # 0 = all results except "No fit" and "Disqualified"
 # 2 = Partial and above
 # 3 = Strong only
-MIN_RESULT_STRENGTH = 0
+MIN_RESULT_STRENGTH = 2
 
 RESULT_ORDER: Dict[str, int] = {
     "Strong":                      3,
@@ -273,25 +277,39 @@ def export_graph(G: nx.DiGraph, output_dir: Path) -> None:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# ENTRY POINT
+# MAIN
 # ─────────────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model", choices=["gemini", "qwen"], required=True,
+                        help="Which model's results to build the knowledge graph for")
+    args = parser.parse_args()
+ 
+    cfg        = MODEL_CONFIGS[args.model]
+    CSV_PATH   = cfg["csv_path"]
+    OUTPUT_DIR = cfg["output_dir"]
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    print(f"Model: {args.model}")
+    print(f"  Results CSV: {CSV_PATH}")
+    print(f"  Output dir:  {OUTPUT_DIR}")
+ 
     print(f"Loading framework: {FRAMEWORK_JSON}")
     framework = load_framework(FRAMEWORK_JSON)
     print(f"  {len(framework)} hero types")
-
+ 
     print(f"\nParsing CSV: {CSV_PATH}")
     hero_type_names, rows = parse_csv(CSV_PATH)
     print(f"  {len(rows)} character rows, {len(hero_type_names)} hero types")
-
+ 
     print(f"\nBuilding graph (min_strength={MIN_RESULT_STRENGTH}: "
           f"{[k for k,v in RESULT_ORDER.items() if v >= MIN_RESULT_STRENGTH]}) ...")
     G = build_graph(hero_type_names, rows, framework, MIN_RESULT_STRENGTH)
-
+ 
     print_stats(G)
-
+ 
     print("\nExporting ...")
     export_graph(G, OUTPUT_DIR)
-
+ 
     print("\nDone.")

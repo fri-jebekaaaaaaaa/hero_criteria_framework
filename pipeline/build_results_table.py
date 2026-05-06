@@ -7,14 +7,22 @@ from typing import Any, Dict, List, Optional, Tuple
 # CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
 
+# ─────────────────────────────────────────────────────────────────────────────
+# CONFIG
+# ─────────────────────────────────────────────────────────────────────────────
+ 
 FRAMEWORK_JSON  = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
-ASSESSMENT_DIR  = Path("qwen_assessment_output/criteria_assessment_output")
-OUTPUT_CSV      = Path("qwen_assessment_output/hero_type_results_qwen.csv")
-
-#FRAMEWORK_JSON  = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
-#ASSESSMENT_DIR  = Path("gemini_assessment_output/criteria_assessment_output")
-#OUTPUT_CSV      = Path("gemini_assessment_output/hero_type_results_gemini.csv")
-
+ 
+MODEL_CONFIGS = {
+    "gemini": {
+        "assessment_dir": Path("gemini_assessment_output/criteria_assessment_output"),
+        "output_csv":     Path("gemini_assessment_output/hero_type_results_gemini.csv")
+    },
+    "qwen": {
+        "assessment_dir": Path("qwen_assessment_output/criteria_assessment_output"),
+        "output_csv":     Path("qwen_assessment_output/hero_type_results_qwen.csv")
+    }
+}
 
 # Glob pattern to find all assessment files
 ASSESSMENT_GLOB = "**/*__criteria_assessment.json"
@@ -209,12 +217,27 @@ def build_csv(
 # ─────────────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model", choices=["gemini", "qwen"], required=True,
+                        help="Which model's assessment results to process")
+    args = parser.parse_args()
+ 
+    cfg            = MODEL_CONFIGS[args.model]
+    ASSESSMENT_DIR = cfg["assessment_dir"]
+    OUTPUT_CSV     = cfg["output_csv"]
+    OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
+    print(f"Model: {args.model}")
+    print(f"  Assessment dir: {ASSESSMENT_DIR}")
+    print(f"  Output CSV:     {OUTPUT_CSV}")
+ 
     print(f"Loading framework from {FRAMEWORK_JSON}")
     framework = load_framework(FRAMEWORK_JSON)
     print(f"  {len(framework)} hero types loaded")
-
+ 
     build_csv(
         assessment_dir=ASSESSMENT_DIR,
         framework=framework,
         output_path=OUTPUT_CSV,
     )
+ 

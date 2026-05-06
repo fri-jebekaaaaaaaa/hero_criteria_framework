@@ -5,18 +5,27 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Dict, Set, Tuple
 
-INDEX_JSON   = Path("folk_stories/seal_index_of_character_types.json")
-#INDEX_JSON   = Path("manual_assessment/_hero_type_manual_index.json")
-
-#RESULTS_CSV  = Path("qwen_assessment_output/hero_type_results_qwen.csv")
-#OUTPUT_DIR   = Path("qwen_assessment_output/comparison_seal")
-#OUTPUT_DIR   = Path("qwen_assessment_output/comparison_manual")
-
-RESULTS_CSV  = Path("gemini_assessment_output/hero_type_results_gemini.csv")
-OUTPUT_DIR   = Path("gemini_assessment_output/comparison_seal")
-#OUTPUT_DIR   = Path("gemini_assessment_output/comparison_manual")
-
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+# ─────────────────────────────────────────────────────────────────────────────
+# CONFIG
+# ─────────────────────────────────────────────────────────────────────────────
+ 
+FRAMEWORK_JSON = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
+ 
+GROUND_TRUTH_CONFIGS = {
+    "seal-white": Path("folk_stories/seal_index_of_character_types.json"),
+    "manual": Path("manual_assessment/_hero_type_manual_index.json"),
+}
+ 
+MODEL_CONFIGS = {
+    "gemini": {
+        "results_csv": Path("gemini_assessment_output/hero_type_results_gemini.csv"),
+        "output_dir": Path("gemini_assessment_output"),
+    },
+    "qwen": {
+        "results_csv": Path("qwen_assessment_output/hero_type_results_qwen.csv"),
+        "output_dir": Path("qwen_assessment_output"),
+    },
+}
 
 PARTIAL_WEIGHT = 0.5
 
@@ -325,30 +334,52 @@ def print_summary(summary):
         elif has_metrics or is_overall:
             print(f"{r['hero_type']:<40} {prec:>9.3f} {rec:>9.3f} {f1v:>11.3f} {gt:>5} {det:>6}")
 
-
+# ─────────────────────────────────────────────────────────────────────────────
+# MAIN
+# ─────────────────────────────────────────────────────────────────────────────
+ 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Compare LLM hero type results against a ground truth index."
+    )
+    parser.add_argument(
+        "--model", choices=["gemini", "qwen"], required=True,
+        help="Which model's results to evaluate"
+    )
+    parser.add_argument(
+        "--ground-truth", choices=["seal-white", "manual"], default="seal-white",
+        help="Which ground truth index to compare against: idex from seal & white's encyclopedia (seal-white is default) or manual annotations"
+    )
     parser.add_argument(
         "--partial", choices=["weighted", "positive", "negative"], default="weighted",
         help="How to treat Partial results: weighted (0.5 credit), positive, or negative"
     )
     args = parser.parse_args()
-
-    import sys
-    # Override the module-level PARTIAL_MODE
-    this = sys.modules[__name__]
-    this.PARTIAL_MODE = args.partial
+ 
+    # Apply settings
+    PARTIAL_MODE = args.partial
+ 
+    cfg         = MODEL_CONFIGS[args.model]
+    results_csv = cfg["results_csv"]
+    output_dir  = cfg["output_dir"] / f"comparison_{args.ground_truth}"
+    index_path  = GROUND_TRUTH_CONFIGS[args.ground_truth]
+    output_dir.mkdir(parents=True, exist_ok=True)
+ 
+    print(f"Model:        {args.model}")
+    print(f"Ground truth: {args.ground_truth} ({index_path})")
     print(f"Partial mode: {args.partial}")
-
-    gt, gt_all = load_index(INDEX_JSON)
-    print(f"Loading results: {RESULTS_CSV}")
-    hero_type_names, rows = load_results(RESULTS_CSV)
+    print(f"Results CSV:  {results_csv}")
+    print(f"Output dir:   {output_dir}")
+ 
+    gt, gt_all = load_index(index_path)
+    hero_type_names, rows = load_results(results_csv)
     print(f"  {len(rows)} character rows, {len(hero_type_names)} hero types")
+ 
     detail_rows, summary, char_summary = validate(hero_type_names, rows, gt, gt_all)
     print_summary(summary)
-
+ 
     suffix = f"_{args.partial}" if args.partial != "weighted" else ""
-    write_csv(detail_rows,  OUTPUT_DIR / f"comparison_detail{suffix}.csv")
-    write_csv(summary,      OUTPUT_DIR / f"comparison_summary{suffix}.csv")
-    write_csv(char_summary, OUTPUT_DIR / f"comparison_character_summary{suffix}.csv")
+    write_csv(detail_rows,  output_dir / f"comparison_detail{suffix}.csv")
+    write_csv(summary,      output_dir / f"comparison_summary{suffix}.csv")
+    write_csv(char_summary, output_dir / f"comparison_character_summary{suffix}.csv")
     print("Done.")
