@@ -6,12 +6,15 @@ from pathlib import Path
 from typing import Dict, Set, Tuple
 
 INDEX_JSON   = Path("folk_stories/seal_index_of_character_types.json")
+#INDEX_JSON   = Path("manual_assessment/_hero_type_manual_index.json")
 
 #RESULTS_CSV  = Path("qwen_assessment_output/hero_type_results_qwen.csv")
-#OUTPUT_DIR   = Path("qwen_assessment_output/comparison")
+#OUTPUT_DIR   = Path("qwen_assessment_output/comparison_seal")
+#OUTPUT_DIR   = Path("qwen_assessment_output/comparison_manual")
 
 RESULTS_CSV  = Path("gemini_assessment_output/hero_type_results_gemini.csv")
-OUTPUT_DIR   = Path("gemini_assessment_output/comparison")
+OUTPUT_DIR   = Path("gemini_assessment_output/comparison_seal")
+#OUTPUT_DIR   = Path("gemini_assessment_output/comparison_manual")
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -97,8 +100,7 @@ def load_results(path: Path):
 
 
 POSITIVE_RESULTS = {
-    "Definitive - strong support", "Definitive - low support",
-    "Strong - good support",       "Strong - low support",
+    "Strong",
 }
 PARTIAL_RESULTS = {"Partial"}
 
@@ -346,7 +348,7 @@ if __name__ == "__main__":
     print_summary(summary)
 
     suffix = f"_{args.partial}" if args.partial != "weighted" else ""
-    write_csv(detail_rows,  OUTPUT_DIR / f"validation_detail{suffix}.csv")
-    write_csv(summary,      OUTPUT_DIR / f"validation_summary{suffix}.csv")
-    write_csv(char_summary, OUTPUT_DIR / f"validation_character_summary{suffix}.csv")
+    write_csv(detail_rows,  OUTPUT_DIR / f"comparison_detail{suffix}.csv")
+    write_csv(summary,      OUTPUT_DIR / f"comparison_summary{suffix}.csv")
+    write_csv(char_summary, OUTPUT_DIR / f"comparison_character_summary{suffix}.csv")
     print("Done.")

@@ -5,7 +5,11 @@
 *_assessment_output/
 *_assessment_output-all/
 *_batch_work/
-*.xlsx
+*_comparison.xlsx
+
+# Manual helpers
+andrew_lang_and_seal_match.xlsx
+build_dragon_slayer_graph.py
 
 # Python cache
 __pycache__/

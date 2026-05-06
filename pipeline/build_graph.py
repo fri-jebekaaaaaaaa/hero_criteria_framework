@@ -10,28 +10,24 @@ import networkx as nx
 # CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
 
-FRAMEWORK_JSON = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
-CSV_PATH       = Path("qwen_assessment_output/hero_type_results_qwen.csv")
-OUTPUT_DIR     = Path("qwen_assessment_output/knowledge_graph")
-
 #FRAMEWORK_JSON = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
-#CSV_PATH       = Path("gemini_assessment_output/hero_type_results_gemini.csv")
-#OUTPUT_DIR     = Path("gemini_assessment_output/knowledge_graph")
+#CSV_PATH       = Path("qwen_assessment_output/hero_type_results_qwen.csv")
+#OUTPUT_DIR     = Path("qwen_assessment_output/knowledge_graph")
+
+FRAMEWORK_JSON = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
+CSV_PATH       = Path("gemini_assessment_output/hero_type_results_gemini.csv")
+OUTPUT_DIR     = Path("gemini_assessment_output/knowledge_graph")
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Only include FITS edges at or above this strength level
 # 0 = all results except "No fit" and "Disqualified"
 # 2 = Partial and above
-# 3 = Strong and above
-# 5 = Definitive only
-MIN_RESULT_STRENGTH = 2
+# 3 = Strong only
+MIN_RESULT_STRENGTH = 0
 
 RESULT_ORDER: Dict[str, int] = {
-    "Definitive - strong support": 6,
-    "Definitive - low support":    5,
-    "Strong - good support":       4,
-    "Strong - low support":        3,
+    "Strong":                      3,
     "Partial":                     2,
     "Weak":                        1,
     "No fit":                      0,

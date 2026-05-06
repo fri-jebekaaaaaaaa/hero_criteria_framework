@@ -96,7 +96,7 @@ def already_done(tale_stem: str, character: str, output_dir: Path) -> bool:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def extract_first_json_object(text: str) -> str:
-    """Locate the first balanced { … } block in raw model output."""
+    # locate the first balanced { … } block in raw model output.
     start = text.find("{")
     if start == -1:
         raise ValueError(f"No JSON object found:\n{text[:300]}")
@@ -124,7 +124,7 @@ def safe_parse(raw: str, label: str = "") -> Optional[Dict[str, Any]]:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def render_chat(system: str, user: str) -> str:
-    """Apply Qwen3 chat template with thinking disabled."""
+    # apply Qwen3 chat template with thinking disabled.
     messages = [
         {"role": "system", "content": system},
         {"role": "user",   "content": user},
