@@ -63,29 +63,22 @@ python framework_pipeline.py
 This runs all steps for both models in order, comparing against both Seal & White's index and manual annotations. You can control which steps, models, and ground truth to use:
  
 ```bash
-# Run only Gemini
-python framework_pipeline.py --models gemini
- 
-# Run only Qwen
-python framework_pipeline.py --models qwen
- 
-# Skip evaluation (steps 1 & 2), only run post-processing
-python framework_pipeline.py --skip-eval
- 
-# Run specific steps only
-python framework_pipeline.py --steps 3 4 5
- 
-# Compare against Seal & White only (no manual annotations required)
-python framework_pipeline.py --ground-truth seal
- 
-# Compare against manual annotations only
-python framework_pipeline.py --ground-truth manual
- 
-# Combine arguments — e.g. run Gemini evaluation and comparison against Seal & White only
+python framework_pipeline.py --models gemini # Run only Gemini
+python framework_pipeline.py --models qwen # Run only Qwen
+
+python framework_pipeline.py --steps 3 4 5 # Run specific steps only
+python framework_pipeline.py --skip-eval # Skip evaluation (steps 1 & 2), only run post-processing
+
+python framework_pipeline.py --ground-truth seal # Compare against Seal & White only (no manual annotations required)
+python framework_pipeline.py --ground-truth manual # Compare against manual annotations only
+```
+
+You can also combine arguments — e.g. run only the Gemini evaluation and comparison only against Seal & White's index of hero types
+```bash
 python framework_pipeline.py --models gemini --steps 1 3 5 --ground-truth seal
 ```
  
-### Pipeline Steps
+Pipeline Steps:
  
 | Step | Script | Description |
 |------|--------|-------------|
