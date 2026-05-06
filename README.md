@@ -17,7 +17,12 @@ Results are aggregated into categorical fit scores (Strong, Partial, Weak, No fi
 │   ├── character_config.json # List of characters to analyse
 │   └── seal_index_of_character_types.json  # Ground truth classification from Seal and White's encyclopedia
 ├── framework/
+│   ├── Hero_Type_Annotation_Sheet.xlsx # Template spreadsheet for manual annotations
 │   └── Hero_Type_Criteria_Framework.json  # 51 hero type definitions
+├── manual_annotations/ # Results from manual annotation of 5 characters
+│   ├── hero_type_manual_index.json # list for comparison with LLM (based on manual annotation results)
+│   ├── Aladdin_Hero_Type_Annotation_Sheet.xlsx # manual annotation of Aladdin
+│   └── ...
 ├── pipeline/
 │   ├── build_knowledge_graph.py
 │   ├── build_result_table.py
