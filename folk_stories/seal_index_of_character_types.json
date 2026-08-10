@@ -46,6 +46,14 @@
     {"character": "Perez the Mouse", "book": "various", "tale": "perez_the_mouse"},
     {"character": "Saint Nicholas", "book": "canadian_fairy_tales", "tale": "SAINT_NICHOLAS_AND_THE_CHILDREN"}
   ],
+  "Childrens Folk Hero": [
+    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS"},
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"},
+    {"character": "Crockett", "book": "the_way_of_the_west", "tale":"DAVY_CROCKETT"},
+    {"character": "Tom Thumb", "book": "grimm_fairy_tales", "tale":"TOM_THUMB"},
+    {"character": "Perez the Mouse", "book": "various", "tale": "perez_the_mouse"},
+    {"character": "Saint Nicholas", "book": "canadian_fairy_tales", "tale": "SAINT_NICHOLAS_AND_THE_CHILDREN"}
+  ],
   "Cinderella": [
     {"character": "Cinderella", "book": "blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"},
     {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"}
@@ -74,7 +82,6 @@
     {"character": "Little Red Riding-Hood", "book": "the_blue_fairy_book", "tale": "05_LITTLE_RED_RIDING_HOOD"},
     {"character": "Cinderella", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"},
     {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"},
-    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST"},
     {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS"},
     {"character": "Gretel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL"},
     {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL"},
@@ -84,8 +91,7 @@
     {"character": "Half-Chick", "book": "the_green_fairy_book", "tale": "02_THE_HALF_CHICK"},
     {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS"},
     {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"},
-    {"character": "Rapunzel", "book": "the_red_fairy_book", "tale":"27_RAPUNZEL"},
-    {"character": "Robin Hood", "book": "stories_of_robin_hood", "tale": "WINNING_THE_SHERIFFS_GOLDEN_ARROW"},   
+    {"character": "Rapunzel", "book": "the_red_fairy_book", "tale":"27_RAPUNZEL"},  
     {"character": "the Princess", "book": "the_blue_fairy_book", "tale": "06_THE_SLEEPING_BEAUTY_IN_the_WOOD"},
     {"character": "Hans", "book": "grimm_fairy_tales", "tale": "HANS_IN_LUCK"}
   ],
@@ -93,7 +99,9 @@
     {"character": "Crockett", "book": "the_way_of_the_west", "tale":"DAVY_CROCKETT"}
   ],
   "Giant-Killer": [
-    {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+    {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
+    {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"}
+
   ],
   "Hare": [
     {"character": "The Cunning Hare", "book": "the_brown_fairy_book", "tale": "07_THE_CUNNING_HARE"},
@@ -117,7 +125,8 @@
     {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
     {"character": "Ivan", "book": "the_pink_fairy_book", "tale": "17_SNOWFLAKE"},
     {"character": "Ivan", "book": "the_red_fairy_book", "tale": "10_THE_NORKA"},
-    {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"}
+    {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"},
+    {"character": "Hans", "book": "grimm_fairy_tales", "tale": "HANS_IN_LUCK"}
   ],
   "Jack and the Beanstalk": [
     {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"},
@@ -127,7 +136,8 @@
     {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
     {"character": "Ivan", "book": "the_pink_fairy_book", "tale": "17_SNOWFLAKE"},
     {"character": "Ivan", "book": "the_red_fairy_book", "tale": "10_THE_NORKA"},
-    {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"}
+    {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"},
+    {"character": "Hans", "book": "grimm_fairy_tales", "tale": "HANS_IN_LUCK"}
   ],
   "Liar": [
     {"character": "Crockett", "book": "the_way_of_the_west", "tale":"DAVY_CROCKETT"}  
@@ -167,7 +177,6 @@
     {"character": "McCaffery", "book": "various", "tale": "the_ballad_of_private_mccaffery"}
   ],
   "Ogre": [
-    {"character": "the Giant", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
     {"character": "the Giant", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"}
   ],
   "Outlaw": [
@@ -185,7 +194,6 @@
   ],
   "Shape-Shifter": [
     {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
-    {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED"},
     {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED"},
     {"character": "Ivan", "book": "the_pink_fairy_book", "tale": "17_SNOWFLAKE"},
     {"character": "Ivan", "book": "the_red_fairy_book", "tale": "10_THE_NORKA"},
@@ -215,19 +223,21 @@
   "Unpromising Hero": [
     {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
     {"character": "Jack", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"},
+    {"character": "Ivan", "book": "the_pink_fairy_book", "tale": "17_SNOWFLAKE"},
+    {"character": "Ivan", "book": "the_red_fairy_book", "tale": "10_THE_NORKA"},
     {"character": "Hans", "book": "grimm_fairy_tales", "tale": "HANS_IN_LUCK"}
   ],
   "Victim": [
     {"character": "Cinderella", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER"},
     {"character": "Gretel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL"},
     {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL"},
-    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"}
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"},
+    {"character": "Half-Chick", "book": "the_green_fairy_book", "tale": "02_THE_HALF_CHICK"}
   ],
   "Villain": [
     {"character": "Blue Beard", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"},
     {"character": "The Devil", "book": "the_pink_fairy_book", "tale": "41_DON_GIOVANNI_DE_LA_FORTUNA"},
     {"character": "Koshchei the Deathless", "book": "the_red_fairy_book", "tale": "04_THE_DEATH_OF_KOSHCHEI_THE_DEATHLESS"},
-    {"character": "the Giant", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"},
     {"character": "the Giant", "book": "the_red_fairy_book", "tale": "12_JACK_AND_THE_BEANSTALK"}
   ],
   "Warrior": [
