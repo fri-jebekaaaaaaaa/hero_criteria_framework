@@ -52,8 +52,8 @@ Steps:
   2  evaluate_framework_two-step.py       Qwen3 vLLM evaluation
   3  build_result_table.py                Build results CSV
   4  build_knowledge_graph.py             Build knowledge graph
-  5  compare_against_ground_truth.py      Compare against Seal & White index
-  6  compare_against_ground_truth.py      Compare against manual annotations
+  5  compare_against_seal_white.py        Compare against Seal & White index
+  6  compare_against_manual.py            Compare against manual annotations
         """
     )
     parser.add_argument(
@@ -127,9 +127,8 @@ def main():
         banner("STEP 5 — Compare Against Seal & White Index")
         for model in sorted(models):
             run([
-                pipeline_dir / "compare_against_ground_truth.py",
+                pipeline_dir / "compare_against_seal_white.py",
                 "--model", model,
-                "--ground-truth", "seal-white",
             ])
 
     # ── Step 6: Compare against manual annotations ────────────────────────────
@@ -137,9 +136,8 @@ def main():
         banner("STEP 6 — Compare Against Manual Annotations")
         for model in sorted(models):
             run([
-                pipeline_dir / "compare_against_ground_truth.py",
+                pipeline_dir / "compare_against_manual.py",
                 "--model", model,
-                "--ground-truth", "manual",
             ])
 
     banner("Pipeline complete.")
