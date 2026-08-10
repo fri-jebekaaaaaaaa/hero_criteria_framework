@@ -1,86 +1,244 @@
 {
   "Animal and Animal-Related": [
-    {"character": "Goldilocks","book": "the_green_fairy_book","tale": "24_THE_STORY_OF_THE_THREE_BEARS"},
-    {"character": "Little Red Riding-Hood","book": "the_blue_fairy_book","tale": "05_LITTLE_RED_RIDING_HOOD"}
+    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},
+    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS", "result": "Strong"},
+    {"character": "The Goose-Girl", "book": "the_blue_fairy_book", "tale": "26_THE_GOOSE_GIRL", "result": "Strong"},
+    {"character": "Half-Chick", "book": "the_green_fairy_book", "tale": "02_THE_HALF_CHICK", "result": "Strong"},
+    {"character": "Little Red Riding-Hood", "book": "the_blue_fairy_book", "tale": "05_LITTLE_RED_RIDING_HOOD", "result": "Strong"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS", "result": "Strong"},
+    {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Strong"},
+    {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Strong"}
   ],
   "Arabian Nights Character": [
-    {"character": "Aladdin","book": "the_blue_fairy_book","tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP"}
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Strong"},
+    {"character": "Ali Baba", "book": "the_blue_fairy_book", "tale": "23_THE_FORTY_THIEVES", "result": "Strong"},
+    {"character": "Little Red Riding-Hood", "book": "the_blue_fairy_book", "tale": "05_LITTLE_RED_RIDING_HOOD", "result": "Disqualified"},   
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU", "result": "Strong"}
   ],
-  "Archer": [],
-  "Beauty": [],
-  "Beauty and the Beast": [],
+  "Archer": [
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU", "result": "Disqualified"}
+  ],
+  "Beauty": [
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},
+    {"character": "Cinderella", "book": "blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"},
+    {"character": "The Goose-Girl", "book": "the_blue_fairy_book", "tale": "26_THE_GOOSE_GIRL", "result": "Strong"},
+    {"character": "Little Red Riding-Hood", "book": "the_blue_fairy_book", "tale": "05_LITTLE_RED_RIDING_HOOD", "result": "Disqualified"},   
+    {"character": "the Princess", "book": "the_blue_fairy_book", "tale": "06_THE_SLEEPING_BEAUTY_IN_the_WOOD", "result": "Strong"}
+  ],
+  "Beauty and the Beast": [
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Weak"},
+    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},
+    {"character": "Cinderella", "book": "blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Weak"},
+    {"character": "Little Red Riding-Hood", "book": "the_blue_fairy_book", "tale": "05_LITTLE_RED_RIDING_HOOD", "result": "Disqualified"},   
+    {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Disqualified"},
+    {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Disqualified"}
+  ],
   "Celebrity Hero": [],
-  "Childrens Hero": [
-    {"character": "Goldilocks","book": "the_green_fairy_book","tale": "24_THE_STORY_OF_THE_THREE_BEARS"},
-    {"character": "Little Red Riding-Hood","book": "the_blue_fairy_book","tale": "05_LITTLE_RED_RIDING_HOOD"}
+  "Childrens Folk Hero": [
+    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},
+    {"character": "Cinderella", "book": "blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"},
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"},
+    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS", "result": "Strong"},
+    {"character": "The Goose-Girl", "book": "the_blue_fairy_book", "tale": "26_THE_GOOSE_GIRL", "result": "Strong"},
+    {"character": "Gretel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Strong"},
+    {"character": "Half-Chick", "book": "the_green_fairy_book", "tale": "02_THE_HALF_CHICK", "result": "Strong"},
+    {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Strong"},
+    {"character": "Little Red Riding-Hood", "book": "the_blue_fairy_book", "tale": "05_LITTLE_RED_RIDING_HOOD", "result": "Strong"},
+    {"character": "the Princess", "book": "the_blue_fairy_book", "tale": "06_THE_SLEEPING_BEAUTY_IN_the_WOOD", "result": "Strong"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS", "result": "Strong"},
+    {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Strong"},
+    {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Strong"}
   ],
-  "Cinderella": [],
-  "Culture Hero": [],
+  "Cinderella": [
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Disqualified"},
+    {"character": "Cinderella", "book": "blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"},
+    {"character": "The Goose-Girl", "book": "the_blue_fairy_book", "tale": "26_THE_GOOSE_GIRL", "result": "Strong"},
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"}
+
+],
+  "Culture Hero": [
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Disqualified"}
+  ],
   "Devil, The": [],
   "Diminutive Being": [],
   "Dragon-Slayer": [
-    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Disqualified"},
+    {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER", "result": "Strong"}
   ],
-  "Fairy": [],
-  "Fairy Godmother": [],
+  "Fairy": [
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"}
+  ],
+  "Fairy Godmother": [
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"}
+  ],
   "Fairy Tale Hero": [
-    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"}
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Disqualified"},
+    {"character": "Ali Baba", "book": "the_blue_fairy_book", "tale": "23_THE_FORTY_THIEVES", "result": "Strong"},
+    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Disqualified"},
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},
+    {"character": "Blue Beard", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD", "result": "Partial"},
+    {"character": "Cinderella", "book": "blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"},
+    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS", "result": "Disqualified"},
+    {"character": "The Goose-Girl", "book": "the_blue_fairy_book", "tale": "26_THE_GOOSE_GIRL", "result": "Strong"},
+    {"character": "Gretel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Strong"},
+    {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Strong"},
+    {"character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER", "result": "Disqualified"},
+    {"character": "Little Red Riding-Hood", "book": "the_blue_fairy_book", "tale": "05_LITTLE_RED_RIDING_HOOD", "result": "Disqualified"},
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU", "result": "Strong"},
+    {"character": "the Princess", "book": "the_blue_fairy_book", "tale": "06_THE_SLEEPING_BEAUTY_IN_the_WOOD", "result": "Strong"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS", "result": "Disqualified"},
+    {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Strong"},
+    {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Strong"},
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD", "result": "Strong"}
   ],
-  "Frontier Hero": [],
+  "Frontier Hero": [
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Disqualified"}
+  ],
   "Giant-Killer": [
-    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER","result": "Strong"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS", "result": "Disqualified"}
   ],
   "Hare": [],
-  "Healer": [],
-  "Helper": [],
+  "Healer": [
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU", "result": "Disqualified"}
+  ],
+  "Helper": [
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS", "result": "Strong"},
+    {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Disqualified"},
+    {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Disqualified"}
+  ],
   "Hero of Struggle": [],
   "Jack": [
-    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Disqualified"},
+    {"character": "Ali Baba", "book": "the_blue_fairy_book", "tale": "23_THE_FORTY_THIEVES", "result": "Disqualified"},
+    {"character": "Cinderella", "book": "blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Disqualified"},
+    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS", "result": "Weak"},
+    {"character": "Gretel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Disqualified"},
+    {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Disqualified"},
+    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER","result": "Strong"},
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU", "result": "Disqualified"},
+    {"character": "the Princess", "book": "the_blue_fairy_book", "tale": "06_THE_SLEEPING_BEAUTY_IN_the_WOOD", "result": "Partial"},
+    {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Weak"},
+    {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Partial"},
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD", "result": "Partial"}
   ],
-  "Jack and the Beanstalk": [],
-  "Jack Tale": [],
-  "Liar": [],
+  "Jack and the Beanstalk": [
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Disqualified"}
+  ],
+  "Jack Tale": [
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Disqualified"},
+    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER","result": "Disqualified"},
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD", "result": "Disqualified"}
+],
+  "Liar": [
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS", "result": "Disqualified"}
+  ],
   "Local Hero": [],
   "Lover": [
-    {"character": "Aladdin","book": "the_blue_fairy_book","tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP"}
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Weak"},
+    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},
+    {"character": "Cinderella", "book": "blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"},
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU", "result": "Strong"},
+    {"character": "the Princess", "book": "the_blue_fairy_book", "tale": "06_THE_SLEEPING_BEAUTY_IN_the_WOOD", "result": "Strong"},
+    {"character": "Rose-Red", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Strong"},
+    {"character": "Snow-White", "book": "the_blue_fairy_book", "tale": "25_SNOW_WHITE_AND_ROSE_RED", "result": "Strong"},
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD", "result": "Disqualified"}
   ],
-  "Magician": [],
+  "Magician": [
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Disqualified"},
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Weak"},
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"},
+    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER","result": "Disqualified"},
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU", "result": "Disqualified"}
+  ],
   "Military Hero": [],
   "National Hero": [],
   "Nautical Hero": [],
-  "Non-human lover": [],
+  "Non-human lover": [
+    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Disqualified"}
+  ],
   "Numskull or Noodle": [],
-  "Occupational Hero": [],
-  "Ogre": [],
+  "Occupational Hero": [
+    {"character": "Ali Baba", "book": "the_blue_fairy_book", "tale": "23_THE_FORTY_THIEVES", "result": "Disqualified"},
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD", "result": "Disqualified"}
+  ],
+  "Ogre": [
+    {"character": "The Beast", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Disqualified"},
+    {"character": "Blue Beard", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD", "result": "Strong"},
+    {"character": "The Fairy Godmother", "book": "the_blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Disqualified"}
+],
   "Outlaw": [],
-  "Puss in Boots": [],
+  "Puss in Boots": [
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Disqualified"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS", "result": "Strong"}
+  ],
   "Religious Hero": [],
   "Santa Claus": [],
   "Shape-Shifter": [],
-  "Sleeper": [],
-  "Thief": [],
+  "Sleeper": [
+    {"character": "the Princess", "book": "the_blue_fairy_book", "tale": "06_THE_SLEEPING_BEAUTY_IN_the_WOOD", "result": "Strong"}
+  ],
+  "Thief": [
+    {"character": "Ali Baba", "book": "the_blue_fairy_book", "tale": "23_THE_FORTY_THIEVES", "result": "Strong"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS", "result": "Disqualified"}
+  ],
   "Tooth Fairy, The": [],
   "Trickster": [
-    {"character": "Aladdin","book": "the_blue_fairy_book","tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP"}
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Strong"},
+    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS", "result": "Weak"},
+    {"character": "Gretel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Disqualified"},
+    {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Disqualified"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS", "result": "Strong"}
   ],
   "Under/Other world Visitor": [
-    {"character": "Aladdin","book": "the_blue_fairy_book","tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP"}
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP","result": "Strong"},
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU", "result": "Strong"}
   ],
   "Unpromising Hero": [
-    {"character": "Aladdin","book": "the_blue_fairy_book","tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP"}
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Strong"},
+    {"character": "Ali Baba", "book": "the_blue_fairy_book", "tale": "23_THE_FORTY_THIEVES", "result": "Strong"},
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Strong"},  
+    {"character": "Cinderella", "book": "blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"},
+    {"character": "Gretel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Strong"},
+    {"character": "Half-Chick", "book": "the_green_fairy_book", "tale": "02_THE_HALF_CHICK", "result": "Disqualified"},
+    {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Strong"},
+    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER","result": "Disqualified"},
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU", "result": "Disqualified"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS", "result": "Strong"}
   ],
   "Victim": [
-    {"character": "Little Red Riding-Hood", "book": "the_blue_fairy_book", "tale": "05_LITTLE_RED_RIDING_HOOD"},
-    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD"}
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Disqualified"},
+    {"character": "Ali Baba", "book": "the_blue_fairy_book", "tale": "23_THE_FORTY_THIEVES", "result": "Disqualified"},   
+    {"character": "Beauty", "book": "the_blue_fairy_book", "tale": "11_BEAUTY_AND_THE_BEAST", "result": "Disqualified"},
+    {"character": "Cinderella", "book": "blue_fairy_book", "tale": "07_CINDERELLA_OR_THE_LITTLE_GLASS_SLIPPER", "result": "Strong"},
+    {"character": "The Goose-Girl", "book": "the_blue_fairy_book", "tale": "26_THE_GOOSE_GIRL", "result": "Strong"},
+    {"character": "Gretel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Strong"},
+    {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Strong"},
+    {"character": "Half-Chick", "book": "the_green_fairy_book", "tale": "02_THE_HALF_CHICK", "result": "Disqualified"},
+    {"character": "Little Red Riding-Hood", "book": "the_blue_fairy_book", "tale": "05_LITTLE_RED_RIDING_HOOD", "result": "Strong"},
+    {"character": "Prince Ahmed", "book": "the_blue_fairy_book", "tale":"34_THE_STORY_OF_PRINCE_AHMED_AND_THE_FAIRY_PARIBANOU", "result": "Disqualified"},
+    {"character": "the Princess", "book": "the_blue_fairy_book", "tale": "06_THE_SLEEPING_BEAUTY_IN_the_WOOD", "result": "Strong"},
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD", "result": "Strong"}
   ],
   "Villain": [
-    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS" }
+    {"character": "Blue Beard", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD", "result": "Strong"},
+    {"character": "Goldilocks", "book": "the_green_fairy_book", "tale": "24_THE_STORY_OF_THE_THREE_BEARS", "result": "Strong"}
   ],
   "Warrior": [
-    {"character": "Jack", "book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER","result": "Strong"}
   ],
   "Wise Man/Woman": [
-    { "character": "Jack", "book": "the_blue_fairy_book", "tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER"}
+    {"character": "Aladdin", "book": "the_blue_fairy_book", "tale": "08_ALADDIN_AND_THE_WONDERFUL_LAMP", "result": "Disqualified"},
+    {"character": "Jack","book": "the_blue_fairy_book","tale": "35_THE_HISTORY_OF_JACK_THE_GIANT_KILLER","result": "Strong"},
+    {"character": "Hansel", "book": "the_blue_fairy_book", "tale": "24_HANSEL_AND_GRETTEL", "result": "Strong"},
+    {"character": "the wife", "book": "the_blue_fairy_book", "tale": "29_BLUE_BEARD", "result": "Weak"},
+    {"character": "Puss in Boots", "book": "the_blue_fairy_book", "tale": "14_THE_MASTER_CAT_OR_PUSS_IN_BOOTS", "result": "Strong"}
   ],
   "Woman Dressed as Man": []
 }
