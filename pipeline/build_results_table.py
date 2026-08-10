@@ -11,7 +11,7 @@ from typing import Any, Dict, List, Optional, Tuple
 # CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
  
-FRAMEWORK_JSON  = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
+FRAMEWORK_JSON  = Path("framework/Hero_Type_Criteria_Framework_v0.3.json")
  
 MODEL_CONFIGS = {
     "gemini": {

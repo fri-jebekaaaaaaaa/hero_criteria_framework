@@ -13,12 +13,11 @@ from vllm import LLM, SamplingParams
 # CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
 
-TALES_ROOT     = Path("folk_stories")
-FRAMEWORK_JSON = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
-OUTPUT_DIR     = Path("criteria_assessment_output")
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
+TALES_ROOT        = Path("folk_stories")
+FRAMEWORK_JSON    = Path("framework/Hero_Type_Criteria_Framework_v0.3.json")
 CHARACTERS_CONFIG = Path("folk_stories/characters_config.json")
+OUTPUT_DIR        = Path("qwen_assessment_output/criteria_assessment_output")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 MODEL_NAME = "Qwen/Qwen3-30B-A3B-Instruct-2507"
 
@@ -26,9 +25,9 @@ MODEL_NAME = "Qwen/Qwen3-30B-A3B-Instruct-2507"
 STEP1_MAX_TOKENS = 4096  # reasoning only, no quotes → shorter
 STEP2_MAX_TOKENS = 8192  # quotes only, subset of criteria → shorter
 
-# vLLM settings for H100 80 GB
+# vLLM settings for GPU H100 
 GPU_MEMORY_UTILIZATION = 0.9   # leaves ~9 GB headroom for KV cache
-MAX_MODEL_LEN          = 32768
+MAX_MODEL_LEN          = 65536
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -113,11 +112,11 @@ def extract_first_json_object(text: str) -> str:
 
 def safe_parse(raw: str, label: str = "") -> Optional[Dict[str, Any]]:
     try:
-        return json.loads(extract_first_json_object(raw))
+        json_str = extract_first_json_object(raw)
+        return json.loads(json_str, strict=False)  # allow raw control chars in strings
     except Exception as e:
         log(f"JSON parse error [{label}]: {e} | raw[:200]={raw[:200]}")
         return None
-
 
 # ─────────────────────────────────────────────────────────────────────────────
 # PROMPT

@@ -14,7 +14,7 @@ from google.genai import types
 # ─────────────────────────────────────────────────────────────────────────────
 
 TALES_ROOT        = Path("folk_stories")
-FRAMEWORK_JSON    = Path("framework/Hero_Type_Criteria_Framework_v0.1.json")
+FRAMEWORK_JSON    = Path("framework/Hero_Type_Criteria_Framework_v0.3.json")
 CHARACTERS_CONFIG = Path("folk_stories/characters_config.json")
 OUTPUT_DIR        = Path("gemini_assessment_output/criteria_assessment_output")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -574,7 +574,7 @@ def run_step1_batch(jobs: List[Job]) -> List[Optional[Dict[str, Any]]]:
             "key":     job.request_key,
             "request": {
                 "contents":           build_step1_contents(job),
-                "generation_config":  {"temperature": 0.0, "max_output_tokens": 65536},
+                "generation_config":  {"temperature": 0.0, "max_output_tokens": 65536, "thinking_config": {"thinking_budget": 0}},
             },
         })
  
@@ -684,7 +684,7 @@ def run_step2_batch(
             "key":     s2_key(task),
             "request": {
                 "contents":           build_step2_contents(task),
-                "generation_config":  {"temperature": 0.0, "max_output_tokens": 65536},
+                "generation_config":  {"temperature": 0.0, "max_output_tokens": 65536, "thinking_config": {"thinking_budget": 0}},
             },
         })
  
