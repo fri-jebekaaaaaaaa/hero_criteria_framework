@@ -6,24 +6,23 @@
       "hero_type": "Animal and Animal-Related",
       "category": "Entity / Identity",
       "definition": "A hero whose identity is an animal, is transformed into or from an animal, or fundamentally defined through a constitutive animal relationship.",
-      "necessary_logic": "OR",
+      "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero’s primary ontological identity is non-human animal, and the animal acts as a narrative agent.",
-        "The hero’s ontological identity centrally includes transformation into or from animal form. The transformation must: be identity-defining, affect how the character is recognized or treated, not be incidental or momentary.",
-        "The hero’s defining narrative identity depends on a specific animal entity. Removing the animal from the story collapses the heroic configuration."
+        "A non-human animal is a prominent figure in the hero's story.",
+        "The animal in the story acts as a narrative agent (it acts, speaks, or is singled out).",
+        "Replacing the animal with a human or other creature would fundamentally change the story."
       ],
       "supporting_criteria": [
-        "Animal abilities are central to plot progression.",
+        "The hero is an animal.",
+        "The hero transforms into or from animal form.",
         "The hero’s name or identity explicitly references animality.",
-        "The narrative world treats the animal as socially equivalent to humans.",
-        "The animal/human boundary is narratively emphasized.",
-        "The animal relationship recurs across multiple episodes."
+        "The animal is treated as socially equivalent to humans.",
+        "The animal’s species-specific traits (cunningness, loyalty, speed, strength) drive the plot.",
+        "The animal fills a recognized folkloric role (trickster, faithful companion, helper)."
       ],
       "exclusion_criteria": [
         "Animals appear only as background or incidental elements.",
-        "Animal symbolism is metaphorical only (e.g., “lion-hearted”).",
-        "The hero merely owns or briefly interacts with an animal.",
-        "The animal element is narratively removable without altering the hero’s identity."
+        "Animal symbolism is metaphorical only (e.g., “lion-hearted”)."
       ]
     },
     {
@@ -52,20 +51,21 @@
       "definition": "Hero whose defining heroic identity and narrative agency are centered on archery.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero is explicitly identified as an archer, and archery is central to their reputation or narrative identity.",
+        "The hero is explicitly identified as an archer.",
+        "Archery is central to the hero's reputation or narrative identity.",
         "The hero’s decisive or defining heroic acts are primarily accomplished through the use of a bow."
       ],
       "supporting_criteria": [
-        "Exceptional or supernatural skills in archery.",
-        "Archery is repeatedly emphasized across episodes.",
+        "The hero has exceptional or supernatural skills in archery.",
+        "The hero's archery skills are repeatedly emphasized across episodes.",
         "The hero is culturally remembered or labeled specifically as an archer.",
-        "Archery functions as symbolic marker of identity (e.g., precision, distance, elite skill).",
-        "Other combat methods are secondary to archery."
+        "The hero's archery skills function as a symbolic marker of identity (e.g., precision, distance, elite skill).",
+        "The hero's other combat skills are secondary to archery."
       ],
       "exclusion_criteria": [
         "The hero merely uses a bow once without identity relevance.",
-        "Archery is one of many interchangeable combat skills.",
-        "The bow is symbolic or decorative but not action-defining.",
+        "The hero's archery skills are one of many interchangeable combat skills.",
+        "The hero's bow is symbolic or decorative but not action-defining.",
         "Another weapon or skill defines the hero more strongly than archery."
       ]
     },
@@ -75,20 +75,21 @@
       "definition": "A hero whose identity and narrative role are primarily defined by extraordinary physical beauty.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero is explicitly identified within the narrative as exceptionally beautiful, and this beauty is central to their characterization.",
-        "The hero’s physical beauty directly motivates or structures major narrative developments (e.g., pursuit, jealousy, abduction, rivalry, testing)."
+        "The figure is explicitly identified within the narrative as exceptionally beautiful.",
+        "The figure's beauty is central to their characterization.",
+        "The figure’s physical beauty directly motivates or structures major narrative developments (e.g., pursuit, jealousy, abduction, rivalry, testing)."
       ],
       "supporting_criteria": [
-        "Multiple characters react to the hero primarily because of their beauty.",
-        "Beauty is repeatedly emphasized across the narrative.",
-        "The hero’s beauty causes conflict (envy, desire, competition).",
-        "Beauty is culturally framed as extraordinary or supernatural.",
-        "The hero’s value or status is explicitly linked to attractiveness."
+        "Multiple characters react to the figure primarily because of their beauty.",
+        "The figure's beauty is repeatedly emphasized across the narrative.",
+        "The figure’s beauty causes conflict (envy, desire, competition).",
+        "The figure's beauty is culturally framed as extraordinary or supernatural.",
+        "The figure’s value or status is explicitly linked to attractiveness."
       ],
       "exclusion_criteria": [
-        "The hero is described as attractive once, but their attractiveness has no structural relevance.",
-        "Physical appearance is not narratively emphasized.",
-        "Beauty is metaphorical (e.g., “beautiful soul”) rather than physical and plot relevant."
+        "The figure's beauty does not directly motivate or structure major narrative developments.",
+        "The figure's physical appearance is not narratively emphasized.",
+        "The figure's beauty is only metaphorical (e.g., “beautiful soul”) rather than physical and plot relevant."
       ]
     },
     {
@@ -125,44 +126,50 @@
       "definition": "A hero whose defining identity is based on public fame and mass-cultural recognition.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero’s defining status depends on widespread public recognition beyond a local or immediate community.",
-        "The hero’s reputation is constructed, sustained, or amplified through media or mass-cultural circulation."
+        "The hero is a famous public figure.",
+        "The hero’s reputation is constructed, sustained, or amplified through media or mass-cultural circulation.",
+        "The figure has folk expressions gathered around them (anecdotes, rumors, beliefs, jokes, or legends)."
       ],
       "supporting_criteria": [
-        "The hero is widely known outside their immediate social context.",
-        "The hero’s reputation depends on storytelling, print, broadcast, or modern media.",
-        "Public image contributes significantly to heroic identity.",
-        "The hero’s deeds are commemorated through publicity rather than solely oral tradition.",
-        "The hero’s identity persists through popular culture circulation."
+        "The figure’s fame comes from entertainment or sport.",
+        "The figure’s fame comes from notoriety (criminal, fraudster).",
+        "The figure’s fame comes from a reported act of survival or endurance.",
+        "The figure is a famous politician.",
+        "The figure is the subject of urban legends.",
+        "The figure is attached to a traditional heroic theme.",
+        "The figure persists in folk songs, tales, or other folk forms."
       ],
       "exclusion_criteria": [
-        "The hero is respected locally but not widely recognized.",
-        "The hero is mythic but not a celebrity.",
+        "The hero is famous but not mythologized.",
         "The hero is historically important but not publicly mythologized.",
-        "Hero’s fame is secondary to cultural formation (→ Culture Hero instead)."
+        "The hero is mythic but not a celebrity."
       ]
     },
     {
-      "hero_type": "Childrens Hero",
+      "hero_type": "Childrens Folk Hero",
       "category": "Narrative Form",
       "definition": "A hero whose principal cultural identity is formed through children’s folklore, nursery tradition, or child-centered storytelling.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero’s primary or dominant circulation occurs within children’s folklore, nursery rhymes, children’s tales, or child-directed storytelling.",
-        "The hero is structurally associated with childhood belief practices or rituals (e.g., gift-giving, tooth-taking, bedtime lore)."
+        "The figure is found in children’s folklore, nursery rhymes, children’s tales, or child-directed storytelling.",
+        "The figure is widely recognized mainly through childhood exposure.",
+        "The figure is a figure of childhood belief or custom (gift-giving, tooth-taking, bedtime stories)."
       ],
       "supporting_criteria": [
-        "The hero appears frequently in nursery rhymes or children’s verse.",
-        "The hero functions in moral instruction directed at children.",
-        "The hero is widely recognized primarily through childhood exposure.",
-        "The narrative tone is simplified, rhythmic, or formulaic.",
+        "The narrative tone of the storyis simplified, rhythmic, or formulaic.",
+        "The figure functions in moral instruction directed at children.",
+        "The story is at odds with adult norms.",
+        "The storytelling is scatological or intendedly obscene.",
+        "The figure’s occurrence in folklore is quite old, or of unknown authenticity.",
+        "The figure is an adult or historical figure adapted into children’s folklore.",
+        "The figure is a parody or satire of existing folk tales or popular media.",
         "The figure operates within child belief systems (e.g., magical gift bringer)."
       ],
       "exclusion_criteria": [
-        "The hero appears in a story involving children but is not culturally associated with children’s tradition.",
-        "The hero originates in adult legend and only secondarily enters children’s retellings.",
-        "The hero is merely appropriate for children but not structurally tied to children’s folklore.",
-        "The narrative includes child characters but is not culturally classified as children’s folklore."
+        "The figure is a child but does not appear in children’s folklore, nursery rhymes, or children’s tales.",
+        "The figure appears in a story that involves children but isn’t part of children’s folklore.",
+        "The story is merely appropriate for children, but not structurally tied to children’s folklore.",
+        "The figure originates in adult legend and only secondarily enters children’s retellings." 
       ]
     },
     {
@@ -197,22 +204,22 @@
       "definition": "A hero whose defining role is the founding or transformation of core cultural elements for a people or society.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero’s actions are presented as significantly shaping the collective life, practices, or self-understanding of a community.",
-        "The hero introduces, creates, or secures a fundamental element of cultural life (e.g., fire, law, agriculture, crafts, social order).",
-        "The hero’s actions permanently alter the structure or identity of a community’s way of life."
+        "The hero is a mythic, legendary or historical figure.",
+        "The hero belongs to or is claimed by a specific culture or people.",
+        "The hero is regarded as a founder or keeper of the culture's values, customs, and beliefs."
       ],
       "supporting_criteria": [
-        "The hero’s legacy explains aspects of cultural practice or worldview.",
-        "The hero is invoked as representative of a culture.",
-        "The hero’s narrative is tied to long-term cultural memory.",
-        "The hero influences language, folklore, ritual, or identity narratives.",
-        "The hero’s actions have consequences beyond their lifetime."
+        "The hero is responsible for the creation of the cosmos, light, fire, or humanity.",
+        "The hero is a defining representative of a culture.",
+        "The hero brings or teaches survival skills, taboos, or social customs.",
+        "The hero is a warrior.",
+        "The hero is a trickster with associations to the culture’s creation.",
+        "The hero departs at the end (ascends, disappears, or withdraws), sometimes to return."
       ],
       "exclusion_criteria": [
-        "The hero achieves greatness without broader cultural shaping.",
+        "The hero represents a nation-state with government backing, rather than a culture or people.",
         "The hero’s fame is individual rather than culturally formative.",
-        "The hero is primarily known for a single exploit without identity-shaping impact.",
-        "The hero is regionally famous but not culturally formative."
+        "The hero achieves greatness without broader cultural shaping."
       ]
     },
     {
@@ -247,21 +254,22 @@
       "definition": "A hero whose defining characteristic is extreme physical smallness relative to ordinary humans.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero is explicitly described as significantly smaller than ordinary humans, and this size is central to their identity.",
-        "The hero’s diminutive stature is narratively emphasized and shapes their interactions with the world."
+        "The figure is explicitly described as significantly smaller than ordinary humans.",
+        "The figure being significantly smaller than ordinary humans is central to their identity.",
+        "The figure’s diminutive stature shapes their interactions with the world."
       ],
       "supporting_criteria": [
-        "The hero’s size is referenced in their name (e.g., “No Bigger Than a Finger”, “Tom Thumb”).",
-        "Narrative tension arises from physical smallness.",
-        "The hero interacts with objects, animals, or humans at exaggerated scale differences.",
-        "The hero compensates for size through cleverness or resilience.",
-        "The story repeatedly foregrounds scale contrast."
+        "The figure’s size is referenced in their name (e.g., “No Bigger Than a Finger”, “Tom Thumb”).",
+        "Narrative tension arises from the figure's physical smallness.",
+        "The figure interacts with objects, animals, or humans at exaggerated scale differences.",
+        "The figure compensates for size through cleverness or resilience.",
+        "The story repeatedly emphasizes the scale contrast of the figure to the world."
       ],
       "exclusion_criteria": [
-        "The hero is merely a child (youth ≠ diminutive being).",
-        "The hero is described as short but within human variation.",
-        "Smallness is metaphorical rather than literal.",
-        "Physical size is not central to narrative structure."
+        "The figure is merely a child.",
+        "The figure is described as short but within human variation.",
+        "The figure's smallness is metaphorical rather than literal.",
+        "The figure's physical size is not central to narrative structure."
       ]
     },
     {
@@ -292,26 +300,26 @@
     {
       "hero_type": "Fairy",
       "category": "Entity / Identity",
-      "definition": "A supernatural fairy being whose actions toward humans may be beneficial, harmful, or unpredictable.",
+      "definition": "A supernatural being in folklore belonging to fairy-kind or the otherworld, possessing inherent magical power and typically intervening in mortal affairs.",
       "necessary_logic": "AND",
       "necessary_criteria": [
+        "The figure is a supernatural or otherworldly being.",
         "The figure is identified as a fairy or fairy-equivalent within folkloric tradition.",
-        "The figure acts independently within the narrative, not merely as symbolic decoration.",
-        "The figure is not consistently benevolent; it is capable of both helping and harming."
+        "The figure possesses inherent magical or supernatural powers."
       ],
       "supporting_criteria": [
-        "Associated with enchantment or transformation.",
-        "Connected to nature, liminal spaces, or otherworld.",
-        "Interacts unpredictably with humans.",
-        "Functions outside human moral structure.",
-        "Appears in both helpful and dangerous capacities across traditions."
+        "The figure helps mortals, watching over, rewarding or rescuing them.",
+        "The figure is morally ambivalent, able to bestow either gifts or curses on others (just as likely to do ill as good).",
+        "The figure holds important rank in the other world (queen, king, etc.).",
+        "The figure can enchant or transform others.",
+        "The figure can transform or shape-shift themselves.",
+        "The figure is connected to nature, liminal spaces, or otherworld.",
+        "The figure interacts unpredictably with humans."
       ],
       "exclusion_criteria": [
-        "Supernatural being is consistently benevolent and protective (→ Fairy Godmother).",
-        "Character is human.",
-        "Character exists solely as helper without independent agency.",
-        "Character exists only as literary fairy tale invention without folkloric basis.",
-        "Being is strictly demonic or monstrous (→ other entity types)."
+        "The figure is human, including a human enchanted or cursed to a supernatural state.",
+        "The figure is a talking or magical animal.",
+        "The figure belongs to another supernatural entity class (ogre, devil, animal shape-shifter, etc.)."
       ]
     },
     {
@@ -321,23 +329,20 @@
       "necessary_logic": "AND",
       "necessary_criteria": [
         "The figure is presented as a fairy or fairy-like supernatural being.",
-        "The figure has a specific character (a hero/heroine) under their care.",
-        "The figure rescues or protects the hero/heroine from danger or hardship.",
-        "The figure is unfailingly good, unlike ambivalent or harmful fairies."
+        "The figure has a specific character under their care who they rescue or protect from danger or hardship.",
+        "The figure is unfailingly good."
       ],
       "supporting_criteria": [
-        "Provides magical aid or transformation.",
-        "Appears at critical turning point.",
-        "Acts as guardian-like presence.",
-        "Functions as narrative catalyst.",
-        "Associated with literary fairy tale tradition."
+        "The figure is associated with literary fairy tale tradition.",
+        "The figure provides magical aid or transformation for the hero/heroine.",
+        "The figure appears at a critical turning point.",
+        "The figure acts as a guardian-like presence."
       ],
       "exclusion_criteria": [
-        "Fairy figure is morally ambivalent or harmful.",
-        "Supernatural being does not have a hero/heroine under their care.",
-        "Assistance is accidental or incidental.",
-        "Figure functions primarily as trickster or antagonist.",
-        "Character is human (no supernatural element)."
+        "The figure is morally ambivalent or harmful.",
+        "The figure does not have a hero/heroine under their care.",
+        "The figure's assistance is accidental or incidental.",
+        "The figure is human (no supernatural element)."
       ]
     },
     {
@@ -352,18 +357,18 @@
         "The narrative structure leads toward a secure, happy ending (marriage, kingdom, reward)."
       ],
       "supporting_criteria": [
-        "Hero unnamed or generically named.",
-        "Heavy reliance on helpers (fairy godmother, dwarves, etc.).",
-        "Victimization at beginning.",
-        "Evil stepmother or similar simplified villain.",
-        "Moral clarity (good rewarded, evil punished).",
-        "Emotional or psychological depth limited."
+        "The hero is unnamed or generically named.",
+        "The story features heavy reliance on helpers (fairy godmother, dwarves, etc.).",
+        "The protagonist is victimized at the beginning.",
+        "The story includes an evil stepmother or a similar simplified villain.",
+        "The story presents a clear moral framework (good rewarded, evil punished).",
+        "The hero's emotional or psychological depth is limited."
       ],
       "exclusion_criteria": [
-        "Hero is highly self-directed and volitional.",
+        "The hero is highly self-directed and volitional.",
         "Narrative lacks fairy tale conventions.",
         "Resolution is tragic or morally ambiguous.",
-        "Hero’s actions demonstrate strong autonomous agency.",
+        "The hero's actions demonstrate strong autonomous agency.",
         "Narrative retains raw folkloric violence without literary reshaping."
       ]
     },
@@ -378,19 +383,19 @@
         "The hero is portrayed as possessing exaggerated “larger than life” qualities (strength, bravery, cunning, scorn of danger, braggadocio)."
       ],
       "supporting_criteria": [
-        "Historical figure, transformed into legend.",
-        "Associated with national myth-building.",
-        "Embellished through media (books, shows, films).",
-        "Braggart or tall-tale exaggeration.",
-        "Associated with masculine frontier labor roles (cowboy, bushman, backwoodsman).",
-        "Has gender counterpart (cowgirl figure).",
-        "Indigenous resistance hero within frontier conflict."
+        "The hero is a historical figure, transformed into legend.",
+        "The hero is associated with national myth-building.",
+        "The story is embellished through media (books, shows, films).",
+        "The story features braggart or tall-tale exaggeration.",
+        "The hero has a typical masculine frontier labor role (cowboy, bushman, backwoodsman, etc.).",
+        "The hero has a gender counterpart (cowgirl figure).",
+        "The hero is an indigenous resistance hero within frontier conflict."
       ],
       "exclusion_criteria": [
-        "Hero not tied to frontier environment.",
-        "No mythologization or folkloric amplification.",
-        "Purely military hero without frontier association.",
-        "Hero not embedded in national or regional frontier identity."
+        "The hero is not tied to frontier environment.",
+        "There is no mythologization or folkloric amplification of the hero.",
+        "The hero is purely a military hero without frontier association.",
+        "The hero is not embedded in national or regional frontier identity."
       ]
     },
     {
@@ -414,7 +419,7 @@
       "exclusion_criteria": [
         "Adversary is not a giant or humanoid giant-figure.",
         "Giant does not threaten or oppress a community.",
-        "No defeat occurs.",
+        "No defeat of the giant occurs.",
         "Victory does not restore communal security."
       ]
     },
@@ -424,23 +429,22 @@
       "definition": "A hare acting as a central folkloric character, often associated with trickster or culture-hero roles.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The character is explicitly a hare (animal), not merely metaphorically described as one.",
+        "The character is explicitly a hare or rabbit.",
         "The hare functions as a primary or significant agent within the story.",
         "The hare participates in culturally meaningful narrative roles (e.g., creator, culture hero, trickster, moral figure)."
       ],
       "supporting_criteria": [
-        "Identified as Great Hare or White Hare.",
-        "Identified with trickster figure (e.g., Nanabozho).",
-        "Associated with African trickster traditions.",
-        "Displays cunning or overconfidence.",
-        "Appears in moral fable structure.",
-        "Linked to diaspora traditions."
+        "The hero is identified as Great Hare or White Hare.",
+        "The hero is identified as a trickster figure.",
+        "The hero displays cunning or overconfidence.",
+        "The hero appears in a moral fable structure.",
+        "The hero is linked to diaspora traditions."
       ],
       "exclusion_criteria": [
-        "Character is rabbit metaphor only.",
-        "Hare appears incidentally, not as active agent.",
-        "Animal figure is a different species (fox, coyote, etc.).",
-        "Hare lacks cultural or narrative significance."
+        "The hero is a rabbit in metaphor only.",
+        "The hare appears incidentally, not as an active agent.",
+        "The animal figure is a different species (fox, coyote, etc.).",
+        "The hare lacks cultural or narrative significance."
       ]
     },
     {
@@ -450,21 +454,21 @@
       "necessary_logic": "AND",
       "necessary_criteria": [
         "The figure possesses the ability to heal wounds or ailments (physical or supernatural).",
-        "The healing ability is central to the figure’s heroic identity.",
+        "The figure'shealing ability is central to the figure’s heroic identity.",
         "The figure performs acts of healing within the narrative tradition."
       ],
       "supporting_criteria": [
-        "Uses supernatural powers.",
-        "Functions as wise man/woman.",
-        "Acts as advisor.",
-        "Healing extends to spiritual or magical harm.",
-        "Healing role is repeated across narratives."
+        "The hero uses supernatural powers.",
+        "The hero functions as a wise man/woman.",
+        "The hero acts as an advisor.",
+        "The hero's healing extends to spiritual or magical harm.",
+        "The hero's healing role is repeated across narratives."
       ],
       "exclusion_criteria": [
-        "Character provides general assistance but does not heal.",
-        "Character heals incidentally but is not known for healing.",
-        "Character causes harm rather than cures.",
-        "Healing is metaphorical only."
+        "The hero provides general assistance but does not heal.",
+        "The hero heals incidentally but is not known for healing.",
+        "The hero causes harm rather than cures.",
+        "The hero's healing powers are only metaphorical."
       ]
     },
     {
@@ -504,20 +508,20 @@
         "The hero functions as a representative or symbolic champion of an oppressed or dissatisfied group"
       ],
       "supporting_criteria": [
-        "Outsmarts representatives of ruling class.",
-        "Provides vicarious revenge.",
-        "Channels dissatisfaction or dissent.",
-        "Embedded in national resistance tradition.",
-        "Linked to labor or agrarian struggle.",
-        "May overlap with outlaw hero.",
-        "May be a historical figure or fictional.",
-        "May paradoxically originate from elite figure reinterpreted as liberator, only when they liberate an oppressed people."
+        "The hero outsmarts representatives of ruling class.",
+        "The hero provides vicarious revenge.",
+        "The hero channels dissatisfaction or dissent.",
+        "The hero is mbedded in national resistance tradition.",
+        "The hero is linked to labor or agrarian struggle.",
+        "The hero may overlap with outlaw hero.",
+        "The hero may be a historical figure or fictional.",
+        "The hero may paradoxically originate from an elite figure reinterpreted as a liberator, only when they liberate an oppressed people."
       ],
       "exclusion_criteria": [
         "No identifiable social or political conflict context.",
-        "Hero acts independently without representing collective struggle.",
+        "The hero acts independently without representing collective struggle.",
         "Conflict is purely personal rather than structural.",
-        "Hero reinforces authority rather than resisting it."
+        "The hero reinforces authority rather than resisting it."
       ]
     },
     {
@@ -527,21 +531,17 @@
       "necessary_logic": "AND",
       "necessary_criteria": [
         "The figure is the central character of the narrative.",
-        "The character bears a name that is traditionally used within that culture as a recurring folk hero identifier (e.g. Jack in English, Ivan in Russian, Janezek in Slovene, etc.).",
-        "The same name appears across multiple independent types within the folk tradition.",
-        "The name may be applied to tales not originally associated with that character, functioning as a narrative placeholder."
+        "The figure is named Jack, or a cultural equivalent (e.g. Jean in France, Ivan in Russia, Hans in Germany, Janezek in Slovenia, etc.).",
+        "The name functions as a narrative placeholder (may be changed without affecting the story)."
       ],
       "supporting_criteria": [
-        "Name used for convenience by storyteller.",
-        "Equivalent forms exist in other cultures.",
-        "Appears in fairy tale and regional narratives.",
-        "Functions as generic “every man” hero."
+        "The figure’s name is used for convenience by storytellers.",
+        "The figure functions as a generic “every man” hero.",
+        "The same name appears across multiple independent stories.",
+        "The figure appears often in fairy tale and regional narratives."
       ],
       "exclusion_criteria": [
-        "Name appears only once in single narrative.",
-        "Name is tied to a single fixed mythological identity.",
-        "Character defined primarily by specific motif (e.g., dragon-slayer) rather than name recurrence.",
-        "Modern fictional character with no folkloric recurrence."
+        "The figure’s name is tied to a single fixed mythological or folkloric identity."
       ]
     },
     {
@@ -578,23 +578,22 @@
       "definition": "Tales centered on a seemingly foolish Jack who succeeds through cunning, luck, or assistance rather than heroism.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The main hero in the narrative is a Jack (or cultural equivalent).",
-        "The protagonist is portrayed as bumbling, naïve, undeserving, or morally ambiguous.",
-        "The protagonist succeeds primarily through trickery, luck, assistance, accident, or cunning rather than courage or virtue.",
-        "The tale ends with material gain, marriage, elevation, or status improvement."
+        "The protagonist is named Jack, or a cultural equivalent (e.g. Jean in France, Ivan in Russia, Hans in Germany, etc.).",
+        "The protagonist is portrayed as bumbling, naive, undeserving, or morally ambiguous.",
+        "The protagonist succeeds primarily through various devices, including tricks, deviousness, assistance from elsewhere, and sometimes just luck."
       ],
       "supporting_criteria": [
-        "Tasks imposed by authority figure.",
-        "Hero’s apparent foolishness masking shrewdness.",
-        "Hero can be morally ambiguous.",
-        "Tale ends victory over powerful adversary."
+        "Tasks imposed on the hero by an authority figure.",
+        "The hero’s apparent foolishness masks shrewdness.",
+        "The hero can be morally ambiguous.",
+        "The tale ends in victory over a powerful adversary.",
+        "The tale ends with material gain, marriage, elevation, or status improvement."
       ],
       "exclusion_criteria": [
-        "Hero succeeds through bravery or noble virtue.",
-        "Hero defined by moral purity (→ Fairy Tale Hero).",
-        "Narrative lacks comedic incompetence element.",
-        "Tale structured is connected to a specific motif (e.g. Jack and the Beanstalk).",
-        "Protagonist is not culturally recognized as Jack-type."
+        "The hero succeeds through their own bravery or noble virtue.",
+        "The hero is defined by moral purity.",
+        "The narrative lacks a comedic incompetence element.",
+        "The protagonist's identity is not culturally recognized as a Jack hero type."
       ]
     },
     {
@@ -627,24 +626,24 @@
       "definition": "A hero whose recognition and significance are primarily confined to a particular local area.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The figure is primarily known and celebrated within a specific geographic community or region.",
-        "The figure forms part of local lore, custom, or collective memory.",
+        "The hero is primarily known and celebrated within a specific geographic community or region.",
+        "The hero forms part of local lore, custom, or collective memory.",
         "The hero has not originally achieved widespread national or international recognition."
       ],
       "supporting_criteria": [
-        "Associated with a specific place name.",
-        "Associated with a local event.",
-        "Celebrated for eccentricity.",
-        "Subject of local song, booklet, or tradition.",
-        "May be an animal.",
-        "May later become nationally known.",
-        "May overlap with outlaw, occupational, or liar types."
+        "The hero is associated with a specific place name.",
+        "The hero is associated with a local event.",
+        "The hero is celebrated for eccentricity.",
+        "The hero is the subject of local song, booklet, or tradition.",
+        "The hero may be an animal.",
+        "The hero may later become nationally known.",
+        "The hero may overlap with outlaw, occupational, or liar types."
       ],
       "exclusion_criteria": [
-        "Hero primarily recognized nationally or internationally.",
-        "Figure detached from specific geographic locality.",
-        "Fame originates outside local community.",
-        "Recognition purely literary without community embedding."
+        "The hero is primarily recognized nationally or internationally.",
+        "The hero is detached from specific geographic locality.",
+        "The hero's fame originates outside local community.",
+        "The hero's recognition is purely literary without community embedding."
       ]
     },
     {
@@ -653,20 +652,20 @@
       "definition": "A hero whose defining condition or fate arises from romantic attachment.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The character’s story includes a romantic relationship.",
-        "The hero’s suffering, transformation, salvation, death, elevation, or restoration occurs because of romantic attachment (either their own or another’s).",
+        "The figure’s story includes a romantic relationship.",
+        "The figure’s suffering, transformation, salvation, death, elevation, or restoration occurs because of romantic attachment (either their own or another’s).",
         "The figure is commonly remembered in connection with a romantic relationship."
       ],
       "supporting_criteria": [
-        "Hero’s love leads to death (“died for love” motif).",
-        "Hero’s love breaks enchantment.",
-        "Hero’s love restores or heals.",
-        "Hero’s love elevates their social status.",
+        "The figure’s love leads to death (“died for love” motif).",
+        "The figure’s love breaks enchantment.",
+        "The figure’s love restores or heals.",
+        "The figure’s love elevates their social status.",
         "Love endures separation or trials in the narrative.",
-        "Hero’s love is expressed through sacrifice."
+        "The figure’s love is expressed through sacrifice."
       ],
       "exclusion_criteria": [
-        "Romantic attachment does not determine the hero’s outcome in the story.",
+        "Romantic attachment does not determine the figure’s outcome in the story.",
         "The narrative would remain intact without the romantic element."
       ]
     },
@@ -676,27 +675,27 @@
       "definition": "A hero defined by the possession and use of supernatural powers.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero possesses magical or supernatural abilities beyond ordinary human capacity.",
+        "The figure possesses magical or supernatural abilities beyond ordinary human capacity.",
         "These abilities are actively employed within the narrative.",
         "The figure’s heroic identity is grounded in their magical power, not merely in courage, strength, or luck."
       ],
       "supporting_criteria": [
-        "Hero engages in magical contests.",
-        "Hero uses magic for prediction or prophecy.",
-        "Hero uses magic for transportation or movement.",
-        "Hero casts spells, charms or shapeshifts.",
-        "Hero commands animals.",
-        "Hero sends soul into another body.",
-        "Hero uses magic to benefit community.",
-        "Hero is associated with resistance to political power.",
-        "Hero is associated with or cheats the Devil.",
-        "Hero functions as healer."
+        "The figure engages in magical contests.",
+        "The figure uses magic for prediction or prophecy.",
+        "The figure uses magic for transportation or movement.",
+        "The figure casts spells, charms or shapeshifts.",
+        "The figure commands animals.",
+        "The figure sends soul into another body.",
+        "The figure uses magic to benefit community.",
+        "The figure is associated with resistance to political power.",
+        "The figure is associated with or cheats the Devil.",
+        "The figure functions as healer."
       ],
       "exclusion_criteria": [
-        "Supernatural assistance comes from an external helper rather than the hero’s own power.",
-        "Magic is incidental and does not define the hero’s identity.",
-        "The hero’s defining trait is something else (e.g., dragon-slaying, lying, frontier life).",
-        "Magical power belongs to the hero’s enemy, not the hero."
+        "Supernatural assistance comes from an external helper rather than the figure’s own power.",
+        "Magic is incidental and does not define the figure’s identity.",
+        "The figure’s defining trait is something else (e.g., dragon-slaying, lying, frontier life).",
+        "Magical power belongs to the figure’s enemy, not the figure."
       ]
     },
     {
@@ -710,19 +709,19 @@
         "The hero is defined in tradition as soldier, warrior, sailor, admiral, or equivalent martial role."
       ],
       "supporting_criteria": [
-        "Hero is celebrated for their bravery, endurance or cleverness in battle.",
-        "Hero is celebrated for achieving military victory or an honorable defeat.",
-        "Hero may be a historical figure mythologized in folklore.",
-        "Hero may be a mythical warrior.",
-        "Hero is a female figure disguised as a male soldier in order to participate in battle.",
-        "Hero is motivated by loyalty.",
-        "Hero is associated with songs, ballads, or war legends."
+        "The hero is celebrated for their bravery, endurance or cleverness in battle.",
+        "The hero is celebrated for achieving military victory or an honorable defeat.",
+        "The hero  may be a historical figure mythologized in folklore.",
+        "The hero may be a mythical warrior.",
+        "The hero is a female figure disguised as a male soldier in order to participate in battle.",
+        "The hero is motivated by loyalty.",
+        "The hero is associated with songs, ballads, or war legends."
       ],
       "exclusion_criteria": [
         "Conflict is personal rather than organized warfare.",
         "Violence is incidental to the hero’s identity.",
         "Military element is only background and not identity-defining.",
-        "Hero primarily acts outside institutional authority."
+        "The hero primarily acts outside institutional authority."
       ]
     },
     {
@@ -731,29 +730,29 @@
       "definition": "A hero widely recognized as representing the identity, values, or history of a nation.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The figure is widely recognized as representing a nation or national identity.",
-        "The figure is publicly commemorated or promoted through national institutions (education, civic ceremonies, monuments, holidays, etc.).",
+        "The hero is widely recognized as representing a nation or national identity.",
+        "The hero is publicly commemorated or promoted through national institutions (education, civic ceremonies, monuments, holidays, etc.).",
         "The hero’s reputation functions as a symbol of the nation’s values, history, or identity."
       ],
       "supporting_criteria": [
-        "The figure appears in national education, civic observances, or public holidays.",
-        "The figure is commemorated through monuments, statues, place names, or other public memorials.",
-        "The figure appears in official national representations such as postage stamps.",
-        "The figure originates as a historical person whose deeds became folkloric.",
-        "The figure originates as a legendary or symbolic character representing the nation.",
-        "The figure embodies stereotypical national characteristics.",
-        "The figure represents resistance to foreign domination.",
-        "The figure originates from warfare or military struggle.",
-        "The figure represents a national occupational stereotype (e.g. soldier types).",
-        "The figure represents a national feminine archetype (e.g mother, nurse, martyr).",
-        "The figure is associated with exploration or discovery linked to national identity.",
-        "The figure appears in “sleeping hero” traditions, returning when the nation needs them.",
-        "The figure emerges through interaction between folk tradition and official cultural representation."
+        "The hero appears in national education, civic observances, or public holidays.",
+        "The hero is commemorated through monuments, statues, place names, or other public memorials.",
+        "The hero appears in official national representations such as postage stamps.",
+        "The hero originates as a historical person whose deeds became folkloric.",
+        "The hero originates as a legendary or symbolic character representing the nation.",
+        "The hero embodies stereotypical national characteristics.",
+        "The hero represents resistance to foreign domination.",
+        "The hero originates from warfare or military struggle.",
+        "The hero represents a national occupational stereotype (e.g. soldier types).",
+        "The hero represents a national feminine archetype (e.g mother, nurse, martyr).",
+        "The hero is associated with exploration or discovery linked to national identity.",
+        "The hero appears in “sleeping hero” traditions, returning when the nation needs them.",
+        "The hero emerges through interaction between folk tradition and official cultural representation."
       ],
       "exclusion_criteria": [
-        "The figure is only locally recognized rather than nationally known.",
-        "The figure lacks symbolic association with national identity.",
-        "The figure is not commemorated in national traditions or institutions."
+        "The hero is only locally recognized rather than nationally known.",
+        "The hero lacks symbolic association with national identity.",
+        "The hero is not commemorated in national traditions or institutions."
       ]
     },
     {
@@ -762,26 +761,26 @@
       "definition": "A hero whose defining identity arises from exploits connected with seafaring or maritime life.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The figure’s exploits occur primarily in a maritime or seafaring context.",
-        "The figure’s reputation in tradition is grounded in activities connected with the sea.",
-        "The figure’s identity is defined through maritime roles or exploits (e.g., sailor, pirate, explorer, navigator, admiral)."
+        "The hero’s exploits occur primarily in a maritime or seafaring context.",
+        "The hero’s reputation in tradition is grounded in activities connected with the sea.",
+        "The hero’s identity is defined through maritime roles or exploits (e.g., sailor, pirate, explorer, navigator, admiral)."
       ],
       "supporting_criteria": [
-        "The figure is a pirate or maritime outlaw.",
-        "The figure is a seafaring adventurer or voyager.",
-        "The figure is a smuggler operating at sea.",
-        "The figure is a naval commander or admiral.",
-        "The figure is an explorer or discoverer associated with sea voyages.",
-        "The figure is a fictional voyager whose adventures take place at sea.",
-        "The figure represents the occupational traditions of sailors.",
-        "The figure is associated with maritime saints or religious protectors of sailors.",
+        "The hero is a pirate or maritime outlaw.",
+        "The hero is a seafaring adventurer or voyager.",
+        "The hero is a smuggler operating at sea.",
+        "The hero is a naval commander or admiral.",
+        "The hero is an explorer or discoverer associated with sea voyages.",
+        "The hero is a fictional voyager whose adventures take place at sea.",
+        "The hero represents the occupational traditions of sailors.",
+        "The hero is associated with maritime saints or religious protectors of sailors.",
         "The hero engages in armed conflict at sea.",
         "The hero undertakes voyages involving supernatural encounters.",
         "The hero performs feats of navigation or survival at sea."
       ],
       "exclusion_criteria": [
         "The sea appears only incidentally and does not define the hero’s identity.",
-        "The figure’s reputation arises primarily from land-based exploits."
+        "The hero’s reputation arises primarily from land-based exploits."
       ]
     },
     {
@@ -790,9 +789,9 @@
       "definition": "A figure who forms a romantic relationship with a human while possessing a non-human nature.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The character possesses a non-human or supernatural identity.",
-        "The character forms a romantic relationship with a human partner.",
-        "The character’s non-human nature shapes the development or outcome of the relationship."
+        "The figure possesses a non-human or supernatural identity.",
+        "The figure forms a romantic relationship with a human partner.",
+        "The figure’s non-human nature shapes the development or outcome of the relationship."
       ],
       "supporting_criteria": [
         "The non-human lover conceals their true nature.",
@@ -804,7 +803,7 @@
       ],
       "exclusion_criteria": [
         "Both lovers are human.",
-        "The supernatural character does not enter a romantic relationship with a human.",
+        "The supernatural figure does not enter a romantic relationship with a human.",
         "The supernatural identity is incidental and does not affect the relationship."
       ]
     },
@@ -814,21 +813,21 @@
       "definition": "A hero characterized by extreme foolishness whose actions arise from misunderstanding instructions or taking them too literally.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero is defined by persistent foolishness or stupidity.",
-        "The hero performs actions based on misunderstanding instructions or interpreting them literally.",
-        "The character’s narrative role centers on foolish behavior that drives the story."
+        "The figure is defined by persistent foolishness or stupidity.",
+        "The figure performs actions based on misunderstanding instructions or interpreting them literally.",
+        "The figure’s narrative role centers on foolish behavior that drives the story."
       ],
       "supporting_criteria": [
-        "The hero carries out absurd or impractical tasks due to misunderstanding.",
-        "The hero follows instructions exactly regardless of circumstances.",
-        "The hero performs actions that appear irrational or nonsensical.",
-        "The hero’s foolish behavior creates humorous situations.",
-        "The hero ultimately succeeds or benefits despite stupidity, often through luck.",
-        "The hero appears as an individual fool or as part of a “fool town” tradition."
+        "The figure carries out absurd or impractical tasks due to misunderstanding.",
+        "The figure follows instructions exactly regardless of circumstances.",
+        "The figure performs actions that appear irrational or nonsensical.",
+        "The figure’s foolish behavior creates humorous situations.",
+        "The figure ultimately succeeds or benefits despite stupidity, often through luck.",
+        "The figure appears as an individual fool or as part of a “fool town” tradition."
       ],
       "exclusion_criteria": [
-        "The character’s defining trait is cleverness or deception (trickster).",
-        "The character’s foolishness is occasional rather than central to their identity.",
+        "The figure’s defining trait is cleverness or deception (trickster).",
+        "The figure’s foolishness is occasional rather than central to their identity.",
         "The narrative does not revolve around misunderstandings or literal interpretations."
       ]
     },
@@ -838,22 +837,22 @@
       "definition": "A hero who represents the skills, values, and traditions of a particular trade, profession, or occupation.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The figure is associated with a specific trade, profession, or occupation.",
-        "The figure represents the skills, values, or identity of that occupational group.",
-        "The figure’s reputation arises from exploits connected to that occupation."
+        "The hero is associated with a specific trade, profession, or occupation.",
+        "The hero represents the skills, values, or identity of that occupational group.",
+        "The hero’s reputation arises from exploits connected to that occupation."
       ],
       "supporting_criteria": [
-        "The figure is portrayed as larger-than-life or possessing extraordinary skill in their work.",
-        "The figure appears in tall tales or exaggerated stories related to occupational activities.",
-        "The figure originates in the traditions of a working group or labor community.",
-        "The figure is adopted by members of the occupation as a representative hero.",
-        "The figure may originate in literature but is later adopted by occupational folklore.",
-        "The figure performs superhuman feats connected with occupational tasks.",
-        "The figure becomes associated with local stories or traditions within the occupational community."
+        "The hero is portrayed as larger-than-life or possessing extraordinary skill in their work.",
+        "The hero appears in tall tales or exaggerated stories related to occupational activities.",
+        "The hero originates in the traditions of a working group or labor community.",
+        "The hero is adopted by members of the occupation as a representative hero.",
+        "The hero may originate in literature but is later adopted by occupational folklore.",
+        "The hero performs superhuman feats connected with occupational tasks.",
+        "The hero becomes associated with local stories or traditions within the occupational community."
       ],
       "exclusion_criteria": [
-        "The figure is associated with an occupation but is not defined by occupational exploits.",
-        "The figure represents a patron saint of a trade rather than a heroic occupational figure."
+        "The hero is associated with an occupation but is not defined by occupational exploits.",
+        "The hero represents a patron saint of a trade rather than a heroic occupational figure."
       ]
     },
     {
@@ -943,29 +942,29 @@
       "definition": "A figure celebrated in religious tradition whose actions, teachings, suffering, or supernatural abilities embody the values and beliefs of a religious system.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The figure is associated with a religious belief system or spiritual tradition.",
-        "The figure is celebrated for actions, virtues, or sacrifices connected to religious belief.",
-        "The figure’s reputation or narratives arise from religious traditions, sacred texts, or associated folklore."
+        "The hero is associated with a religious belief system or spiritual tradition.",
+        "The hero is celebrated for actions, virtues, or sacrifices connected to religious belief.",
+        "The hero’s reputation or narratives arise from religious traditions, sacred texts, or associated folklore."
       ],
       "supporting_criteria": [
-        "The figure is a founder of a religion or religious movement.",
-        "The figure is a helper or close associate of a religious founder.",
-        "The figure is a martyr who suffers or dies for religious beliefs.",
-        "The figure is officially recognized as a saint or holy person.",
-        "The figure demonstrates religious virtues such as piety, compassion, bravery, wisdom, or devotion.",
-        "The figure is associated with miraculous or supernatural powers.",
-        "The figure performs acts of healing or spiritual assistance.",
-        "The figure appears in religious texts, sacred narratives, or apocryphal traditions.",
-        "The figure appears in folk traditions connected to religious practice or belief.",
-        "The figure’s stories are transmitted through folklore, humor, or everyday storytelling.",
-        "The figure appears in folk drama or religious performance traditions.",
-        "The figure’s traditions spread across cultures as religious beliefs spread.",
-        "The figure’s stories connect religious authority with everyday life."
+        "The hero is a founder of a religion or religious movement.",
+        "The hero is a helper or close associate of a religious founder.",
+        "The hero is a martyr who suffers or dies for religious beliefs.",
+        "The hero is officially recognized as a saint or holy person.",
+        "The hero demonstrates religious virtues such as piety, compassion, bravery, wisdom, or devotion.",
+        "The hero is associated with miraculous or supernatural powers.",
+        "The hero performs acts of healing or spiritual assistance.",
+        "The hero appears in religious texts, sacred narratives, or apocryphal traditions.",
+        "The hero appears in folk traditions connected to religious practice or belief.",
+        "The hero’s stories are transmitted through folklore, humor, or everyday storytelling.",
+        "The hero appears in folk drama or religious performance traditions.",
+        "The hero’s traditions spread across cultures as religious beliefs spread.",
+        "The hero’s stories connect religious authority with everyday life."
       ],
       "exclusion_criteria": [
-        "The figure lacks a connection to religious belief, doctrine, or spiritual tradition.",
-        "The figure’s heroic reputation arises entirely from non-religious actions.",
-        "The figure does not participate in or represent a religious system."
+        "The hero lacks a connection to religious belief, doctrine, or spiritual tradition.",
+        "The hero’s heroic reputation arises entirely from non-religious actions.",
+        "The hero does not participate in or represent a religious system."
       ]
     },
     {
@@ -997,23 +996,23 @@
       "definition": "A hero with the supernatural ability to transform into different forms such as animals, objects, or other beings.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The character possesses the ability to change physical form.",
-        "The character transforms into other forms such as animals, objects, supernatural beings, or other entities.",
-        "The character’s transformations play a role in the events or actions of the narrative."
+        "The figure possesses the ability to change physical form.",
+        "The figure transforms into other forms such as animals, objects, supernatural beings, or other entities.",
+        "The figure’s transformations play a role in the events or actions of the narrative."
       ],
       "supporting_criteria": [
-        "The character uses shape-shifting in contests or competitions with others.",
-        "The character uses transformation to pursue or obtain a romantic partner.",
-        "The character uses transformation to escape danger or evade pursuers.",
-        "The character uses transformation as disguise.",
-        "The character uses transformation to enter otherwise inaccessible places.",
-        "The character participates in magical contests with villains or sorcerers involving transformation.",
-        "The character appears in traditions where transformation is associated with trickster figures."
+        "The figure uses shape-shifting in contests or competitions with others.",
+        "The figure uses transformation to pursue or obtain a romantic partner.",
+        "The figure uses transformation to escape danger or evade pursuers.",
+        "The figure uses transformation as disguise.",
+        "The figure uses transformation to enter otherwise inaccessible places.",
+        "The figure participates in magical contests with villains or sorcerers involving transformation.",
+        "The figure appears in traditions where transformation is associated with trickster figures."
       ],
       "exclusion_criteria": [
-        "The character changes form through external magic performed by another character rather than through their own ability.",
-        "The character’s transformation occurs as a curse or enchantment without the ability to change form intentionally.",
-        "The character does not possess the ability to transform into different forms."
+        "The figure changes form through external magic performed by another character rather than through their own ability.",
+        "The figure’s transformation occurs as a curse or enchantment without the ability to change form intentionally.",
+        "The figure does not possess the ability to transform into different forms."
       ]
     },
     {
@@ -1046,22 +1045,22 @@
       "definition": "A hero whose defining trait is exceptional skill in stealing, typically demonstrated through clever deception or trickery.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero is defined by their ability to steal valuable objects.",
+        "The figure is defined by their ability to steal valuable objects.",
         "The theft is accomplished through cleverness, trickery, or deception rather than brute force.",
-        "The hero’s theft forms a central action in the narrative."
+        "The figure’s theft forms a central action in the narrative."
       ],
       "supporting_criteria": [
-        "The hero claims or is known to be a master thief.",
-        "The hero steals from powerful authority figures such as kings or aristocrats.",
-        "The hero successfully completes a series of increasingly difficult thefts.",
-        "The hero steals objects directly from guarded locations (e.g., royal chambers).",
-        "The hero escapes punishment or execution through deception.",
-        "The hero begins as a lazy or unpromising figure who proves their ability through theft."
+        "The figure claims or is known to be a master thief.",
+        "The figure steals from powerful authority figures such as kings or aristocrats.",
+        "The figure successfully completes a series of increasingly difficult thefts.",
+        "The figure steals objects directly from guarded locations (e.g., royal chambers).",
+        "The figure escapes punishment or execution through deception.",
+        "The figure begins as a lazy or unpromising figure who proves their ability through theft."
       ],
       "exclusion_criteria": [
-        "The hero steals only incidentally and is not defined by theft.",
-        "The hero relies primarily on violence rather than trickery.",
-        "Theft is carried out by another character rather than the hero."
+        "The figure steals only incidentally and is not defined by theft.",
+        "The figure relies primarily on violence rather than trickery.",
+        "Theft is carried out by another character rather than the figure."
       ]
     },
     {
@@ -1081,7 +1080,7 @@
         "The tradition appears in modern folklore and popular culture."
       ],
       "exclusion_criteria": [
-        "The character is unrelated to the exchange of children’s lost teeth.",
+        "The figure is unrelated to the exchange of children’s lost teeth.",
         "The figure does not remove the tooth or replace it with a payment.",
         "The narrative concerns general fairy beings without the tooth-exchange tradition."
       ]
@@ -1092,21 +1091,21 @@
       "definition": "A hero characterized by playing tricks, engaging in buffoonery, and violating social or cultural norms.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The character regularly plays tricks on others.",
-        "The character engages in behavior that violates social rules, taboos, or accepted norms.",
-        "The character’s trickery or transgressive actions are central to the narrative."
+        "The figure regularly plays tricks on others.",
+        "The figure engages in behavior that violates social rules, taboos, or accepted norms.",
+        "The figure’s trickery or transgressive actions are central to the narrative."
       ],
       "supporting_criteria": [
-        "The character behaves in foolish, buffoonish, or clown-like ways.",
-        "The character commits outrageous or improper acts but avoids serious consequences.",
-        "The character deceives others in order to gain advantage or revenge.",
-        "The character alternates between cleverness and stupidity.",
-        "The character sometimes acts as a culture or creator figure within a tradition.",
-        "The character appears in stories that emphasize paradox, contradiction, or moral ambiguity."
+        "The figure behaves in foolish, buffoonish, or clown-like ways.",
+        "The figure commits outrageous or improper acts but avoids serious consequences.",
+        "The figure deceives others in order to gain advantage or revenge.",
+        "The figure alternates between cleverness and stupidity.",
+        "The figure sometimes acts as a culture or creator figure within a tradition.",
+        "The figure appears in stories that emphasize paradox, contradiction, or moral ambiguity."
       ],
       "exclusion_criteria": [
-        "Deception or trickery occurs only once and does not define the character.",
-        "The character follows social rules and norms rather than violating them."
+        "Deception or trickery occurs only once and does not define the figure.",
+        "The figure follows social rules and norms rather than violating them."
       ]
     },
     {
@@ -1165,27 +1164,27 @@
       "definition": "A hero best known for being the victim of violence, intrigue, oppression, disaster, or other malevolence.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The character suffers harm, injustice, or misfortune caused by violence, intrigue, oppression, disaster, or malicious actions.",
-        "The character’s victimization is central to the narrative and defines their role in the story.",
-        "The narrative focuses on the suffering, persecution, or tragic fate of the character."
+        "The figure suffers harm, injustice, or misfortune caused by violence, intrigue, oppression, disaster, or malicious actions.",
+        "The figure’s victimization is central to the narrative and defines their role in the story.",
+        "The narrative focuses on the suffering, persecution, or tragic fate of the figure."
       ],
       "supporting_criteria": [
-        "The hero is murdered, harmed, or betrayed by another character.",
-        "The hero suffers because of jealousy, rivalry, or family betrayal.",
-        "The hero is the victim of political intrigue or persecution.",
-        "The hero becomes associated with a historical tragedy or disaster.",
-        "The hero experiences repeated misfortune or persecution.",
-        "The hero’s suffering generates sympathy and moral outrage in the narrative.",
-        "The hero begins the story as a victim but later escapes or overcomes the oppression.",
-        "The hero receives help from others that allows them to survive or recover from their victimization."
+        "The figure is murdered, harmed, or betrayed by another figure.",
+        "The figure suffers because of jealousy, rivalry, or family betrayal.",
+        "The figure is the victim of political intrigue or persecution.",
+        "The figure becomes associated with a historical tragedy or disaster.",
+        "The figure experiences repeated misfortune or persecution.",
+        "The figure’s suffering generates sympathy and moral outrage in the narrative.",
+        "The figure begins the story as a victim but later escapes or overcomes the oppression.",
+        "The figure receives help from others that allows them to survive or recover from their victimization."
       ],
       "exclusion_criteria": [
-        "The character’s suffering is minor or incidental to the narrative.",
-        "The character is primarily defined by heroic action rather than victimization.",
-        "The narrative does not center on injustice, persecution, or harm experienced by the character."
+        "The figure’s suffering is minor or incidental to the narrative.",
+        "The figure is primarily defined by heroic action rather than victimization.",
+        "The narrative does not center on injustice, persecution, or harm experienced by the figure."
       ]
     },
-    {
+{
       "hero_type": "Villain",
       "category": "Narrative Function",
       "definition": "A hero whose purpose is to oppose, obstruct, or undermine the protagonist, often personifying the principle of evil and disrupting the rightful order of things.",
@@ -1216,25 +1215,25 @@
       "definition": "A hero whose defining role is associated with their warrior status, bearing arms against enemies and performing deeds of bravery in combat.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero engages in armed conflict against enemies (human, animal, or supernatural).",
-        "The hero’s role as a fighter or combatant is central to the narrative.",
-        "The hero demonstrates bravery in battle."
+        "The figure engages in armed conflict against enemies (human, animal, or supernatural).",
+        "The figure’s role as a fighter or combatant is central to the narrative.",
+        "The figure demonstrates bravery in battle."
       ],
       "supporting_criteria": [
-        "The hero possesses great physical strength.",
-        "The hero displays skill or prowess with weapons.",
-        "The hero leads others in battle or commands warriors.",
-        "The hero defends a people, culture, or territory from enemies.",
-        "The hero performs extraordinary feats of combat.",
-        "The hero possesses magical abilities or receives supernatural assistance in battle.",
-        "The hero eventually becomes a ruler or political leader.",
-        "The hero dies a heroic death in battle or after recounting heroic deeds.",
-        "The hero participates in warfare while disguised or outside traditional gender roles."
+        "The figure possesses great physical strength.",
+        "The figure displays skill or prowess with weapons.",
+        "The figure leads others in battle or commands warriors.",
+        "The figure defends a people, culture, or territory from enemies.",
+        "The figure performs extraordinary feats of combat.",
+        "The figure possesses magical abilities or receives supernatural assistance in battle.",
+        "The figure eventually becomes a ruler or political leader.",
+        "The figure dies a heroic death in battle or after recounting heroic deeds.",
+        "The figure participates in warfare while disguised or outside traditional gender roles."
       ],
       "exclusion_criteria": [
-        "The character does not engage in combat or warfare.",
-        "The character’s role is primarily non-martial (e.g., healer, trickster, lover, or victim).",
-        "Combat is incidental rather than central to the character’s role in the narrative."
+        "The figure does not engage in combat or warfare.",
+        "The figure’s role is primarily non-martial (e.g., healer, trickster, lover, or victim).",
+        "Combat is incidental rather than central to the figure’s role in the narrative."
       ]
     },
     {
@@ -1243,23 +1242,23 @@
       "definition": "A hero whose defining narrative function is the use of wisdom, intelligence, or cleverness to solve problems, overcome enemies, or assist others.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The hero demonstrates wisdom as a defining attribute.",
-        "The hero uses wisdom, intelligence, or sound judgment to resolve conflicts or overcome challenges.",
-        "The hero’s wisdom plays a central role in the narrative."
+        "The figure demonstrates wisdom as a defining attribute.",
+        "The figure uses wisdom, intelligence, or sound judgment to resolve conflicts or overcome challenges.",
+        "The figure’s wisdom plays a central role in the narrative."
       ],
       "supporting_criteria": [
-        "The hero possesses magical powers used wisely or for good.",
-        "The hero is a religious or spiritual figure associated with wisdom.",
-        "The hero uses cleverness or wit to outsmart enemies or opponents.",
-        "The hero solves riddles, puzzles, or impossible tasks.",
-        "The hero helps others through wise advice or decisions.",
-        "The hero demonstrates cunning or strategic thinking to avoid danger or defeat villains.",
-        "The hero’s wisdom is recognized or sought by others."
+        "The figure possesses magical powers used wisely or for good.",
+        "The figure is a religious or spiritual figure associated with wisdom.",
+        "The figure uses cleverness or wit to outsmart enemies or opponents.",
+        "The figure solves riddles, puzzles, or impossible tasks.",
+        "The figure helps others through wise advice or decisions.",
+        "The figure demonstrates cunning or strategic thinking to avoid danger or defeat villains.",
+        "The figure’s wisdom is recognized or sought by others."
       ],
       "exclusion_criteria": [
-        "The character relies primarily on physical strength, combat ability, or warfare.",
-        "Magical power alone defines the character without associated wisdom.",
-        "The character’s intelligence is incidental rather than central to their role in the narrative."
+        "The figure relies primarily on physical strength, combat ability, or warfare.",
+        "Magical power alone defines the figure without associated wisdom.",
+        "The figure’s intelligence is incidental rather than central to their role in the narrative."
       ]
     },
     {
@@ -1268,7 +1267,7 @@
       "definition": "A heroine who disguises herself as a man in order to pursue activities or roles typically associated with men, such as warfare, travel, or adventure.",
       "necessary_logic": "AND",
       "necessary_criteria": [
-        "The character is a woman who adopts male clothing or identity.",
+        "The figure is a woman who adopts male clothing or identity.",
         "The disguise allows the heroine to participate in activities typically reserved for men (e.g. becoming a soldier, sailor, highway robber, smuggler).",
         "The cross-dressing is central to the narrative."
       ],
@@ -1281,9 +1280,9 @@
         "The heroine becomes known for activities normally associated with male heroes (e.g., fighting, riding, shooting)."
       ],
       "exclusion_criteria": [
-        "The character does not adopt male clothing or identity.",
-        "The disguise is brief or incidental rather than central to the story.",
-        "The character participates in male-associated activities without disguising herself as a man."
+        "The figure does not adopt male clothing or identity.",
+        "The figure's disguise is brief or incidental rather than central to the story.",
+        "The figure participates in male-associated activities without disguising herself as a man."
       ]
     }
   ]
