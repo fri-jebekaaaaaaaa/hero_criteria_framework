@@ -1,16 +1,21 @@
 # Virtual environment
 .venv/
 
+# Corpora
+film_scripts/
+
 # Results and output
-*_assessment_output/
-*_assessment_output-all/
+*_assessment_output*/
 *_batch_work/
 *_comparison.xlsx
 
 # Manual helpers
 andrew_lang_and_seal_match.xlsx
 build_dragon_slayer_graph.py
+*token*
 
+# Archive
+_OLD/
 # Python cache
 __pycache__/
 *.pyc
@@ -18,6 +23,7 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+~*
 
 # IDE
 .vscode/

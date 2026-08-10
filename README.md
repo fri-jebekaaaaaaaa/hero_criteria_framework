@@ -26,7 +26,8 @@ Results are aggregated into categorical fit scores (Strong, Partial, Weak, No fi
 ├── pipeline/
 │   ├── build_knowledge_graph.py
 │   ├── build_result_table.py
-│   ├── compare_against_seal_index.py
+│   ├── compare_against_seal_white.py
+│   ├── compare_against_manual.py
 │   ├── evaluate_framework_gemini_batch.py
 │   └── evaluate_framework_two-step.py   
 ├── prompts/
@@ -37,7 +38,7 @@ Results are aggregated into categorical fit scores (Strong, Partial, Weak, No fi
 ## Installation
  
 ```bash
-pip install google-genai vllm networkx openpyxl 
+pip install google-genai vllm networkx openpyxl matplotlib
 ```
  
 For Qwen3 evaluation, a SLURM cluster with vLLM is required. See `evaluate_framework_two-step.py` for configuration.
@@ -86,16 +87,16 @@ Pipeline Steps:
 | 2 | `evaluate_framework_two-step.py` | Qwen3 vLLM evaluation (requires HPC cluster with vLLM) |
 | 3 | `build_result_table.py` | Aggregates assessment JSONs into a results CSV |
 | 4 | `build_knowledge_graph.py` | Builds GEXF/GraphML knowledge graph for Gephi |
-| 5 | `compare_against_ground_truth.py` | Compares results against Seal & White index |
-| 6 | `compare_against_ground_truth.py` | Compares results against manual annotations |
+| 5 | `compare_against_seal_white.py` | Compares results against Seal & White index (only "Strong" counts as a positive match) |
+| 6 | `compare_against_manual.py` | Compares results against manual annotations by checking whether the categorical result matches |
  
 Each pipeline script can also be run independently:
  
 ```bash
 python pipeline/build_result_table.py --model gemini
 python pipeline/build_knowledge_graph.py --model qwen
-python pipeline/compare_against_ground_truth.py --model gemini --ground-truth seal-white
-python pipeline/compare_against_ground_truth.py --model gemini --ground-truth manual
+python pipeline/compare_against_seal_white.py --model gemini
+python pipeline/compare_against_manual.py --model gemini
 ```
  
 ## Prompt Templates
